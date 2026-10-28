@@ -7,6 +7,7 @@
 - [ ] Verify both languages, company navigation and visible photos on desktop and mobile.
 - [ ] Check the claimed fourth-place Egypt ranking and publish only with a named source and category.
 - [ ] Make reference-based photographs candid, with Hamza looking away from the camera.
+- [ ] Present only Megsy AI as active; remove stopped customer support and the incorrect Megsy Bot logo.
 
 # Cherry-blossom design
 - [x] Apply the supplied animated landscape design to Hamza and Megsy AI, keeping bilingual identity and sourced facts.
