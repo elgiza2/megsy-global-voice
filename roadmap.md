@@ -1,9 +1,9 @@
 # Roadmap
 
 # Fuller editorial presentation
-- [ ] Rework both pages with clearer navigation, readable sections and a more polished visual hierarchy.
-- [ ] Expand shared bilingual leadership, company, capabilities and frequently asked questions without invented claims.
-- [ ] Verify page navigation, both languages, photo viewing and mobile layouts; run existing tests.
+- [x] Rework both pages with clearer navigation, readable sections and a more polished visual hierarchy.
+- [x] Expand shared bilingual leadership, company, capabilities and frequently asked questions without invented claims.
+- [x] Verify page navigation, both languages, photo viewing and mobile layouts; four existing tests passed, no broken sourced images or browser errors.
 
 # Information and photography correction
 - [x] Correct broken information display and rewrite bilingual company information from public company profiles, preserving owner corrections.
