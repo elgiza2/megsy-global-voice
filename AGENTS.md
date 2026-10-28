@@ -10,5 +10,6 @@
 <!-- LOVABLE:END -->
 
 - Keep shared bilingual editorial copy in a browser-safe content module and consume it using the existing language provider, so both pages stay consistent.
-- Keep generated portraits as imported app assets and uploaded originals as CDN pointers; label imagined AI scenes distinctly from documentary photos.
-- Keep the Petalyx landing page self-contained in public/petalyx/index.html with inline CSS and vanilla scripts; the TanStack homepage embeds it to preserve the required framework and isolate the standalone design from legacy bilingual styles.
+- Use imported editorial technology assets for page visuals; personal photography must not be replaced with generated lookalikes because identity accuracy matters.
+- Keep the Hamza homepage and Megsy company page as native TanStack routes sharing the bilingual shell and product sections; Petalyx remains an isolated legacy standalone page, not the homepage.
+- Keep public company sources alongside shared product descriptions and avoid turning advertised features into verified performance or partnership claims.
