@@ -79,8 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Hamza Hassan Elgzairy" },
-      { name: "author", content: "Hamza Hassan Elgzairy" },
+      { title: "Petalyx — Benchmark all AI staff" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
