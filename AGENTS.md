@@ -13,6 +13,7 @@
 - Keep expanded editorial sections and questions in the browser-safe editorial content module, merged through getContent; use native details for accessible questions and progressive animations that never hide content when scripts fail.
 - Personal scene edits must use the uploaded portrait as an image-edit reference and be labeled as imagined settings; import the resulting images rather than generating substitute identities.
 - Keep Hamza and Megsy as TanStack content routes embedding the shared inline landscape template via BlossomPage; interpolate browser-safe bilingual content and scope language/navigation messages to the owning iframe for design isolation.
+- Keep background motion browser-only inside the shared template, using a bundled texture with a static fallback; pause drawing when offscreen and honor reduced-motion preferences to avoid unnecessary rendering.
 - Keep the reference Petalyx standalone HTML separate from Hamza branding and factual company content.
 - Keep public company sources alongside shared product descriptions and avoid turning advertised features into verified performance or partnership claims.
 - Keep externally observed listing positions in browser-safe company facts with their category, date and scope, so directory order is never represented as a general national rank.
