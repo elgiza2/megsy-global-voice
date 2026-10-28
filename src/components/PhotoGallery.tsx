@@ -3,14 +3,14 @@ import { Maximize2, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { useLang } from "@/lib/i18n";
 import { getContent } from "@/lib/content";
-import portrait from "@/assets/hamza-portrait.jpg";
-import workspace from "@/assets/hamza-workspace.jpg";
-import original from "@/assets/hamza-original.jpg.asset.json";
+import portrait from "@/assets/hamza-editorial.jpg";
+import workspace from "@/assets/hamza-office.jpg";
+import casual from "@/assets/hamza-casual.jpg";
 
 export function PhotoGallery() {
   const { lang } = useLang();
   const c = getContent(lang);
-  const photos = [{ src: portrait, label: c.portrait }, { src: workspace, label: c.workspace }, { src: original.url, label: c.original }];
+  const photos = [{ src: portrait, label: c.portrait }, { src: workspace, label: c.workspace }, { src: casual, label: c.casual }];
   const [selected, setSelected] = useState({ src: portrait, label: c.portrait });
   const dialog = useRef<HTMLDialogElement>(null);
   return <section id="pictures" className="section-wrap scroll-mt-24">

@@ -5,8 +5,8 @@ import { getContent } from "@/lib/content";
 import { Partners } from "@/components/Partners";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
-import workspace from "@/assets/hamza-workspace.jpg";
-import portrait from "@/assets/hamza-portrait.jpg";
+import workspace from "@/assets/hamza-office-wide.jpg";
+import portrait from "@/assets/hamza-editorial.jpg";
 
 const title = "Megsy — Technology partner of Google, Amazon & Alibaba | ميجسي";
 const description =
