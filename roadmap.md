@@ -1,8 +1,8 @@
 # Roadmap
 
 # Cherry-blossom design
-- [ ] Apply the supplied animated landscape design to Hamza and Megsy AI, keeping bilingual identity and sourced facts.
-- [ ] Verify landscape assets, accordion, navigation, language switch and mobile layout.
+- [x] Apply the supplied animated landscape design to Hamza and Megsy AI, keeping bilingual identity and sourced facts.
+- [x] Verify landscape assets, accordion, navigation, language switch and mobile layout (all images loaded; routing and browser checks passed; the supplied video reports unsupported media in Chromium, with the exact supplied poster as fallback).
 
 # Hamza redesign
 - [x] Research Megsy AI and incorporate sourced information without unsupported claims (EgyptInnovate and Megsy Bot verified; main website currently reports a paused deployment, creation-platform features attributed to its public descriptions).
