@@ -2,6 +2,7 @@ import type { Lang } from './i18n';
 
 const editorial = {
   en: {
+    dark: { label: 'Leadership in motion', h1: 'Building a company', h2: 'that moves with purpose.', lead: 'Hamza leads Megsy LLC with a simple idea — technology should be clear, useful and built for real people.', place: 'Cairo', company: 'Megsy LLC', live: 'Building now', reach: 'Arabic · English', t0a: 'A leadership view built for ', t0b: 'a wider world.', site: 'megsyai.com', p0: 'Chat', p1: 'Code', p2: 'Images', copy1: 'Megsy AI — one workspace for chat, coding, images and documents.', s0: 'Megsy AI', s0v: 'active', s1: 'Customer support service', s1v: 'paused', t2: 'Vision.' },
     triptych: { label: 'Leadership, company and vision', leadership: 'Company leadership', name: 'Hamza Hassan Elgzairy', role: 'CEO · Megsy LLC', stages: ['Purpose', 'Direction', 'Work'], title0: 'Hamza’s perspective', body0: 'Clear priorities. Thoughtful leadership.', brand: 'Megsy LLC', question: 'The company behind the work.', prompt: 'Technology with a clear purpose.\nMegsy AI is our currently active product.\nThe company is the bigger picture.', link: 'Meet Megsy', title1: 'The company', body1: 'People, direction and useful technology.', vision: 'Looking ahead', visionValue: 'A clear purpose', tags: ['Real needs', 'Useful technology', 'Long-term thinking'], title2: 'A meaningful vision', body2: 'Build for people. Think beyond today.' },
     menuAbout: 'About Hamza', menuWork: 'The company', menuPhotos: 'Vision', menuFaq: 'Questions',
     chapter: 'Leadership / Technology / Company', heroCta: 'Meet Hamza',
@@ -29,6 +30,7 @@ const editorial = {
     contactEyebrow: 'Megsy LLC', contactHeading: 'A company with a direction.', contactText: 'Meet the leadership and vision behind Megsy.',
   },
   ar: {
+    dark: { label: 'قيادة في حركة', h1: 'نبني شركة', h2: 'تتحرك بهدف واضح.', lead: 'يقود حمزة شركة Megsy LLC بفكرة بسيطة — التكنولوجيا لازم تكون واضحة ومفيدة ومبنية لناس حقيقيين.', place: 'القاهرة', company: 'Megsy LLC', live: 'نبني الآن', reach: 'العربية · English', t0a: 'رؤية قيادية مبنية ', t0b: 'لعالم أوسع.', site: 'megsyai.com', p0: 'محادثة', p1: 'برمجة', p2: 'صور', copy1: 'Megsy AI — مساحة واحدة للمحادثة والبرمجة والصور والمستندات.', s0: 'Megsy AI', s0v: 'متاح', s1: 'خدمة دعم العملاء', s1v: 'متوقفة', t2: 'الرؤية.' },
     triptych: { label: 'القيادة والشركة والرؤية', leadership: 'قيادة الشركة', name: 'حمزة حسن الجزايري', role: 'الرئيس التنفيذي · Megsy LLC', stages: ['الهدف', 'الاتجاه', 'العمل'], title0: 'نظرة حمزة', body0: 'أولويات واضحة. وقيادة واعية.', brand: 'Megsy LLC', question: 'الشركة وراء ما نبنيه.', prompt: 'تكنولوجيا لها هدف واضح.\nMegsy AI هو منتجنا المتاح حاليًا.\nوالشركة هي الصورة الأوسع.', link: 'عن Megsy', title1: 'الشركة', body1: 'الناس والاتجاه والتكنولوجيا المفيدة.', vision: 'نظرة للمستقبل', visionValue: 'هدف واضح', tags: ['احتياجات حقيقية', 'تكنولوجيا مفيدة', 'تفكير طويل المدى'], title2: 'رؤية لها قيمة', body2: 'نبني للناس. ونفكر أبعد من اليوم.' },
     menuAbout: 'عن حمزة', menuWork: 'الشركة', menuPhotos: 'الرؤية', menuFaq: 'أسئلة',
     chapter: 'القيادة / التكنولوجيا / الشركة', heroCta: 'تعرّف على حمزة',

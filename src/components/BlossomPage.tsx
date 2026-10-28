@@ -42,6 +42,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       if (Array.isArray(value)) value.forEach((text, index) => { values[`tri_${key}${index}`] = text; });
       else values[`tri_${key}`] = value;
     });
+    Object.entries(c.dark).forEach(([key, value]) => { values[`dk_${key}`] = value; });
     c.photoCaptions.forEach((caption, index) => { values[`caption${index}`] = caption; });
     c.faqs.forEach((item, index) => { values[`faqQuestion${index}`] = item.question; values[`faqAnswer${index}`] = item.answer; });
     c.sources.forEach((source, index) => { values[`sourceName${index}`] = source.name; values[`sourceUrl${index}`] = source.url; });
