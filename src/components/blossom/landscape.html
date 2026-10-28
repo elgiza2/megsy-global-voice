@@ -20,7 +20,7 @@ h1{font-size:clamp(52px,9vw,112px);font-weight:500;letter-spacing:-.045em;line-h
 .section{padding:140px 0}.label{font-size:14px;color:var(--muted);margin-bottom:20px}
 h2{font-size:clamp(34px,4.6vw,56px);font-weight:500;letter-spacing:-.035em;line-height:1.08;text-wrap:balance}
 .statement{font-size:clamp(26px,3.2vw,40px);line-height:1.3;letter-spacing:-.025em;font-weight:400;max-width:900px;text-wrap:pretty}
-.statement span{color:var(--muted)}
+.sub{font-size:18px;line-height:1.7;color:var(--muted);max-width:680px;margin-top:28px}
 .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:80px;border-top:1px solid var(--line)}.facts div{padding-top:22px}.facts small{display:block;font-size:13px;color:var(--muted);margin-bottom:8px}.facts b{font-size:20px;font-weight:500}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}.split p{font-size:18px;line-height:1.7;color:var(--muted);margin-top:22px}.split .btn{margin-top:32px}
 .media{border-radius:24px;overflow:hidden;aspect-ratio:4/5}.media img{width:100%;height:100%;object-fit:cover}
@@ -45,7 +45,7 @@ dialog{border:0;padding:0;background:transparent;max-width:min(1100px,94vw)}dial
 <main id="top">
 <section class="hero"><div class="wrap reveal"><p class="eyebrow">{{heroEyebrow}}</p><h1>{{heroName}}</h1><p class="lead">{{heroBody}}</p><div class="actions"><a class="btn" data-nav="company" href="/megsy" target="_top">{{discover}}</a><a class="btn ghost" href="#about">{{menuAbout}}</a></div></div>
 <div class="stage"><img class="sky-still" src="{{skyPainting}}" alt=""><canvas class="sky" aria-hidden="true"></canvas><div class="frame"><img src="{{heroPhoto}}" alt="{{heroPhotoAlt}}" fetchpriority="high"></div></div></section>
-<section class="section" id="about"><div class="wrap"><p class="label reveal">{{aboutLabel}}</p><p class="statement reveal">{{aboutTitle}} <span>{{biography}}</span></p><div class="facts reveal"><div><small>{{roleLabel}}</small><b>{{identityLabel}}</b></div><div><small>{{companyFactLabel}}</small><b>Megsy AI</b></div><div><small>{{focusLabel}}</small><b>{{focusValue}}</b></div></div></div></section>
+<section class="section" id="about"><div class="wrap"><p class="label reveal">{{aboutLabel}}</p><p class="statement reveal">{{biography}}</p><p class="sub reveal">{{biographyMore}}</p><div class="facts reveal"><div><small>{{roleLabel}}</small><b>{{identityLabel}}</b></div><div><small>{{companyFactLabel}}</small><b>Megsy AI</b></div><div><small>{{focusLabel}}</small><b>{{focusValue}}</b></div></div></div></section>
 <section class="section band" id="work"><div class="wrap"><div class="split"><div class="reveal"><p class="label">{{companySectionLabel}}</p><h2>{{companySectionTitle}}</h2><p>{{companySectionBody}}</p><p>{{companySectionMore}}</p><a class="btn" href="https://www.megsyai.com/" target="_blank" rel="noopener">{{contactButton}}</a></div><div class="media reveal"><img src="{{sidePhoto}}" alt="{{sidePhotoAlt}}" loading="lazy"></div></div>
 <div class="cols"><article class="col reveal"><span>01</span><h3>{{productTitle0}}</h3><p>{{productBody0}}</p></article><article class="col reveal"><span>02</span><h3>{{productTitle1}}</h3><p>{{productBody1}}</p></article><article class="col reveal"><span>03</span><h3>{{productTitle2}}</h3><p>{{productBody2}}</p></article></div></div></section>
 <section class="section"><div class="wrap center reveal"><p class="label">{{approachLabel}}</p><h2>{{approachTitle}}</h2><p>{{approachBody}}</p></div></section>

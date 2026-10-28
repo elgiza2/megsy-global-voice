@@ -29,7 +29,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       skyPainting,
       heroPhoto: company ? teamPhoto : deskPhoto,
       heroPhotoAlt: company ? (c.photoCaptions[2] ?? '') : (c.photoCaptions[3] ?? ''),
-      aboutLabel: c.aboutLabel, aboutTitle: c.aboutTitle, biography: c.biography + ' ' + c.biographyMore,
+      aboutLabel: c.aboutLabel, biography: c.biography, biographyMore: c.biographyMore,
       roleLabel: ar ? 'المنصب' : 'Role', identityLabel: ar ? 'الرئيس التنفيذي' : 'CEO',
       companyFactLabel: ar ? 'الشركة' : 'Company',
       focusLabel: ar ? 'المجال' : 'Focus', focusValue: ar ? 'الذكاء الاصطناعي' : 'Artificial intelligence',
