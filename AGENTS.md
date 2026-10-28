@@ -17,3 +17,4 @@
 - Keep the reference Petalyx standalone HTML separate from Hamza branding and factual company content.
 - Keep public company sources alongside shared product descriptions and avoid turning advertised features into verified performance or partnership claims.
 - Keep externally observed listing positions in browser-safe company facts with their category, date and scope, so directory order is never represented as a general national rank.
+- Keep the below-hero triptych isolated with section container units and native canvas/Web Animations; visuals are qualitative company artwork, never invented performance metrics.

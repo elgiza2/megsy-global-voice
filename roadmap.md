@@ -1,3 +1,7 @@
+# Triptych section presentation
+- [x] Preserve the approved hero and replace leadership/company/vision sections with Falcon-inspired cards and canvas visuals.
+- [x] Verify card entrance, both languages, desktop and phone layouts, navigation and reduced motion.
+
 # Company and leadership focus
 - [x] Refocus both pages and search information on Hamza and Megsy LLC, distinguishing the company from Megsy AI.
 - [x] Replace product-led sections with company direction and leadership; remove generated documentary scenes.
