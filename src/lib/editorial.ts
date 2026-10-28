@@ -24,6 +24,7 @@ const editorial = {
       { question: 'Are the conference and meeting photos real events?', answer: 'No. These images were edited using Hamza’s original photograph as a reference. The settings are imagined and should not be treated as evidence of conference appearances or meetings.' },
       { question: 'Where can I read more about the company?', answer: 'The sources below include Megsy’s GoodFirms company profile, the Egypt cloud-computing directory and the Megsy creation-platform website. Product capabilities are attributed to those public descriptions.' },
     ],
+    photoCaptions: ['On stage', 'A quiet moment', 'In a team meeting', 'At work'],
     contactEyebrow: 'Keep exploring', contactHeading: 'Meet the work behind Megsy AI.', contactText: 'Continue to the company website for its current offering.',
   },
   ar: {
@@ -49,6 +50,7 @@ const editorial = {
       { question: 'هل صور المؤتمر والاجتماع توثّق فعاليات حقيقية؟', answer: 'لا. الصور معدّلة باستخدام صورة حمزة الأصلية كمرجع. الأماكن متخيّلة، ولا تُعد دليلًا على المشاركة في مؤتمرات أو اجتماعات فعلية.' },
       { question: 'أين أجد معلومات إضافية عن الشركة؟', answer: 'تشمل المصادر أدناه ملف Megsy على GoodFirms، ودليل شركات الحوسبة السحابية في مصر، وموقع منصة الإنشاء. أوصاف الإمكانات منسوبة إلى المعلومات المنشورة في هذه المصادر.' },
     ],
+    photoCaptions: ['على المسرح', 'لحظة تفكير', 'في اجتماع مع الفريق', 'أثناء العمل'],
     contactEyebrow: 'اكتشف المزيد', contactHeading: 'تعرّف على العمل وراء Megsy AI.', contactText: 'انتقل إلى موقع الشركة للاطلاع على ما تقدّمه حاليًا.',
   },
 };
