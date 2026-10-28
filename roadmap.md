@@ -1,7 +1,7 @@
 # Roadmap
 
-# Founder site restored
-- [x] Restore the bilingual Hamza/Megsy homepage as the main page (Petalyx stays as a standalone file at /petalyx/index.html).
-- [x] Regenerate every photo from the user's real photo as direct reference so it is him, not a lookalike: keynote, boardroom meeting, editorial portrait, wide office, co-working.
-- [x] Site brand name "Elgzairy" in nav; full name kept for search/GEO (Person + FAQ JSON-LD, bilingual meta, hreflang).
-- [x] Verify pages, both languages and mobile via browser (all images load, no console errors).
+# Hamza redesign
+- [ ] Research Megsy AI and incorporate sourced information without unsupported claims.
+- [ ] Rename the visible site Hamza and replace both pages with a clean editorial design.
+- [ ] Remove rejected generated portraits from visible pages; keep Arabic and English.
+- [ ] Update search metadata and verify navigation, language switching and layouts.
