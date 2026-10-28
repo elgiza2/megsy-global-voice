@@ -33,6 +33,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       galleryLabel: c.galleryLabel, galleryTitle: c.galleryTitle, conferenceCaption: c.conferenceCaption,
       meetingCaption: c.meetingCaption, photoNote: c.photoNote, closePhoto: ar ? 'إغلاق الصورة' : 'Close photo',
       sourceNote: c.sourceNote, availability: c.availability,
+      listingNote: c.listingNote, listingUrl: c.listingUrl,
     };
     c.sources.forEach((source, index) => { values[`sourceName${index}`] = source.name; values[`sourceUrl${index}`] = source.url; });
     c.products.forEach((p, index) => {

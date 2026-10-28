@@ -1,7 +1,10 @@
 import type { Lang } from './i18n';
+import { goodFirmsListing } from './company-facts';
 
 const content = {
   en: {
+    listingNote: `Megsy appeared as listing ${goodFirmsListing.position} on GoodFirms’ Cloud Computing Companies in Egypt page on October 28, 2026. This is its visible list position, not a fourth-place ranking among all Egyptian companies; directory order may change.`,
+    listingUrl: goodFirmsListing.url,
     name: 'Hamza Hassan Elgzairy', shortName: 'Hamza', role: 'CEO · Megsy AI',
     nav: { about: 'About', company: 'Megsy AI', contact: 'Contact' },
     heroLine: 'A clearer way to build.', heroBody: 'I’m Hamza Hassan Elgzairy, CEO of Megsy AI — a platform for AI-assisted creation and customer support.',
@@ -30,6 +33,8 @@ const content = {
     companyHero: 'Megsy AI', companyHeroBody: 'AI creation tools and a business-support chatbot.', location: 'Megsy AI', founderLabel: 'Leadership', founderTitle: 'Hamza Hassan\nElgzairy', founderBody: 'CEO of Megsy AI. Working at the intersection of company leadership and technology.', personalSite: 'Meet Hamza',
   },
   ar: {
+    listingNote: `ظهرت Megsy في الموضع ${goodFirmsListing.position} بقائمة GoodFirms لشركات الحوسبة السحابية في مصر عند مراجعتها يوم 28 أكتوبر 2026. ده ترتيب الظهور في القائمة، وليس تصنيف رابع شركة في مصر عمومًا، وقد يتغير ترتيب الدليل.`,
+    listingUrl: goodFirmsListing.url,
     name: 'حمزة حسن الجزايري', shortName: 'Hamza', role: 'الرئيس التنفيذي · Megsy AI',
     nav: { about: 'عن حمزة', company: 'Megsy AI', contact: 'تواصل' },
     heroLine: 'رؤية أوضح.\nلبناء القادم.', heroBody: 'أنا حمزة حسن الجزايري، الرئيس التنفيذي لشركة Megsy AI، التي تقدّم أدوات للإنشاء بالذكاء الاصطناعي وخدمة العملاء.',
