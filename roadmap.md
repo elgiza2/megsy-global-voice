@@ -1,5 +1,9 @@
 # Roadmap
 
+# Codex reference redesign
+- [ ] Replace the rejected presentation with Codex-inspired colors, centered layout and a moving background on both pages.
+- [ ] Verify animations, Arabic and English, navigation, photographs and mobile layout.
+
 # Fuller editorial presentation
 - [x] Rework both pages with clearer navigation, readable sections and a more polished visual hierarchy.
 - [x] Expand shared bilingual leadership, company, capabilities and frequently asked questions without invented claims.
