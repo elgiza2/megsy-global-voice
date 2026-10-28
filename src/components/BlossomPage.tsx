@@ -5,6 +5,7 @@ import { getContent } from '@/lib/content';
 import template from './blossom/landscape.html?raw';
 import conferencePhoto from '@/assets/hamza-conference-reference.jpg';
 import meetingPhoto from '@/assets/hamza-meeting-reference.jpg';
+import motionTexture from '@/assets/codex-water.jpg';
 
 const escapeHtml = (value: string) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 export function BlossomPage({ company = false }: { company?: boolean }) {
@@ -16,6 +17,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
     const ar = lang === 'ar';
     const values: Record<string, string> = {
       heroName: company ? 'Megsy AI' : 'Hamza', heroRole: company ? c.companyHeroBody : c.role,
+      motionTexture,
       heroBody: company ? c.companyIntro : c.heroBody, discover: company ? c.personalSite : c.discover,
       language: ar ? 'EN' : 'عربي', aboutLabel: company ? c.companyLabel : c.aboutLabel,
       aboutTitle: (company ? c.companyTitle : c.aboutTitle).replace(/\n/g, ' '),
@@ -54,7 +56,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
     let result = template.replace(/\{\{(\w+)\}\}/g, (_, key: string) => escapeHtml(values[key] ?? ''));
     result = result.replace('<html lang="en">', `<html lang="${lang}" dir="${ar ? 'rtl' : 'ltr'}">`);
     result = result.replace('</head>', '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&amp;display=swap"></head>');
-    if (company) result = result.replace('href="/megsy" target="_top"', 'href="/" target="_top"').replace('data-nav="company"', 'data-nav="home"');
+    if (company) result = result.replaceAll('href="/megsy" target="_top"', 'href="/" target="_top"').replaceAll('data-nav="company"', 'data-nav="home"').replace('aria-hidden="true">H</div>', 'aria-hidden="true">M</div>');
     return result;
   }, [lang, company]);
   useEffect(() => {
