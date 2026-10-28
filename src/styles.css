@@ -152,6 +152,7 @@ html { scroll-behavior: smooth; }
 .founder-hero { min-height: 650px; }
 .hero-shade { background: var(--hero-wash); }
 [dir="rtl"] .hero-shade { transform: scaleX(-1); }
+[dir="rtl"] .founder-hero > img { transform: scaleX(-1); }
 [dir="rtl"] .hero-copy { margin-inline-start: auto; margin-inline-end: 0; }
 .photo-dialog { width: min(960px, calc(100vw - 32px)); margin: auto; max-height: 90dvh; }
 .photo-dialog::backdrop { background: var(--dialog-backdrop); }
