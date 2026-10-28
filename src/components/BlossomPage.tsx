@@ -32,13 +32,15 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
     });
     let result = template.replace(/\{\{(\w+)\}\}/g, (_, key: string) => escapeHtml(values[key] ?? ''));
     result = result.replace('<html lang="en">', `<html lang="${lang}" dir="${ar ? 'rtl' : 'ltr'}">`);
-    result = result.replace('1,500&amp;display=swap', '1,500&amp;display=swap').replace('</head>', '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&amp;display=swap"></head>');
+    result = result.replace('</head>', '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&amp;display=swap"></head>');
     if (company) result = result.replace('href="/megsy" target="_top"', 'href="/" target="_top"').replace('data-nav="company"', 'data-nav="home"');
     return result;
   }, [lang, company]);
   useEffect(() => {
     const listener = (event: MessageEvent) => {
-      if (event.source !== frame.current?.contentWindow || event.origin !== window.location.origin) return;
+      if (event.source !== frame.current?.contentWindow) return;
+      // srcdoc reports an opaque origin in some browsers; only the owned frame may send messages.
+      if (event.origin !== window.location.origin && event.origin !== 'null') return;
       if (event.data?.type === 'hamza-language') setLang(lang === 'ar' ? 'en' : 'ar');
       if (event.data?.type === 'hamza-navigation') void navigate({ to: event.data.page === 'company' ? '/megsy' : '/' });
     };
