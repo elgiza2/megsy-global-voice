@@ -11,7 +11,7 @@ export function PhotoGallery() {
   const { lang } = useLang();
   const c = getContent(lang);
   const photos = [{ src: portrait, label: c.portrait }, { src: workspace, label: c.workspace }, { src: original.url, label: c.original }];
-  const [selected, setSelected] = useState(photos[0]);
+  const [selected, setSelected] = useState({ src: portrait, label: c.portrait });
   const dialog = useRef<HTMLDialogElement>(null);
   return <section id="pictures" className="section-wrap scroll-mt-24">
     <div className="mb-10 flex flex-wrap items-end justify-between gap-4"><h2 className="section-title">{c.gallery}</h2><p className="max-w-sm text-muted-foreground">{c.gallerySub}</p></div>
