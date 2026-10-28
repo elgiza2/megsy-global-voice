@@ -1,5 +1,10 @@
 # Roadmap
 
+# Fuller editorial presentation
+- [ ] Rework both pages with clearer navigation, readable sections and a more polished visual hierarchy.
+- [ ] Expand shared bilingual leadership, company, capabilities and frequently asked questions without invented claims.
+- [ ] Verify page navigation, both languages, photo viewing and mobile layouts; run existing tests.
+
 # Information and photography correction
 - [x] Correct broken information display and rewrite bilingual company information from public company profiles, preserving owner corrections.
 - [x] Do not identify Abdullah Mohamed as a company partner.
