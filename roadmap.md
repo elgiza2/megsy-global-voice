@@ -1,12 +1,7 @@
-# Website expansion
-- [x] Expand bilingual founder and company content.
-- [x] Add original portrait and AI-imagined stage, portrait and workspace images.
-- [x] Improve navigation and retain page-specific discovery metadata.
-- [x] Verify pages, language switching and mobile layout.
-- [x] Replace all photos with realistic standalone portraits (no original photo), including a wide Cairo office scene.
+# Roadmap
 
-# Petalyx redesign
-- [x] Create the requested standalone landing page with exact hosted media and inline styling and animation.
-- [x] Display Petalyx as the main page and update discovery metadata.
-- [x] Verify animation, accordion, links and desktop/mobile layout.
-- [ ] Verify video playback in Chromium: supplied video uses HEVC, unsupported by the test browser; original URL retained with its poster fallback. Needs a compatible video from the user for universal playback.
+# Founder site restored
+- [x] Restore the bilingual Hamza/Megsy homepage as the main page (Petalyx stays as a standalone file at /petalyx/index.html).
+- [x] Regenerate every photo from the user's real photo as direct reference so it is him, not a lookalike: keynote, boardroom meeting, editorial portrait, wide office, co-working.
+- [x] Site brand name "Elgzairy" in nav; full name kept for search/GEO (Person + FAQ JSON-LD, bilingual meta, hreflang).
+- [x] Verify pages, both languages and mobile via browser (all images load, no console errors).

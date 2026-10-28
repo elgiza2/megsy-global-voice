@@ -2,13 +2,13 @@ import type { Lang } from "./i18n";
 
 const content = {
   en: {
-    name: "Hamza Hassan Elgzairy", shortName: "Hamza Elgzairy", about: "About", gallery: "In pictures", philosophy: "A perspective on building", company: "The company", companyTitle: "Global partnerships. A regional ambition.",
+    name: "Hamza Hassan Elgzairy", shortName: "Elgzairy", about: "About", gallery: "In pictures", philosophy: "A perspective on building", company: "The company", companyTitle: "Global partnerships. A regional ambition.",
     intro: "Founder and CEO of Megsy. Connecting a technology company’s ambition with the possibilities of Google, Amazon and Alibaba.",
     biography: "Hamza Hassan Elgzairy is the founder and CEO of Megsy. His work brings together company leadership and partnerships with Google, Amazon and Alibaba.",
     biographyMore: "This is the starting point of the Megsy story: a technology company with a global outlook. The ambition is to bring people, ideas and technology closer together, and build a company with a clear identity and a lasting purpose.",
     visionLabel: "Looking ahead", visionTitle: "Technology with a clear purpose.", visionBody: "Megsy’s ambition is to bridge global technology and regional opportunity. A focus on useful products, thoughtful partnerships and long-term value shapes that direction.",
     approach: "A direction, not a finish line.", approachBody: "Building a company means asking the right questions: what is worth making, who does it serve, and how can it remain useful? These ideas describe an ambition for the future, not a list of completed achievements.",
-    stage: "On stage · imagined scene", portrait: "Editorial portrait · imagined", workspace: "At the office · imagined scene", casual: "A working day · imagined scene", imageNote: "These portraits and scenes are artistic impressions created for this site; they do not document real events, offices or appearances.",
+    stage: "On stage · imagined scene", meeting: "Partner meeting · imagined scene", portrait: "Editorial portrait · imagined", workspace: "At the office · imagined scene", casual: "A working day · imagined scene", imageNote: "These portraits and scenes are artistic impressions created for this site; they do not document real events, offices or appearances.",
     openPhoto: "View photo", close: "Close photo", gallerySub: "A personal look at the person behind Megsy.",
     partnersBody: "Megsy’s partners include Google, Amazon and Alibaba. Each brings a different perspective to the global technology landscape.",
     partnerDescriptions: ["Search, information and technology.", "Commerce, cloud and digital infrastructure.", "Commerce and connections across markets."],
@@ -20,13 +20,13 @@ const content = {
     contactTopics: ["Partnerships", "Press enquiries", "Speaking invitations"], backTop: "Back to top",
   },
   ar: {
-    name: "حمزة حسن الجزايري", shortName: "حمزة الجزايري", about: "عن حمزة", gallery: "بالصور", philosophy: "رؤية للبناء", company: "الشركة", companyTitle: "شراكات عالمية. وطموح من المنطقة.",
+    name: "حمزة حسن الجزايري", shortName: "الجزايري", about: "عن حمزة", gallery: "بالصور", philosophy: "رؤية للبناء", company: "الشركة", companyTitle: "شراكات عالمية. وطموح من المنطقة.",
     intro: "المؤسس والرئيس التنفيذي لشركة Megsy. طموح شركة تقنية يلتقي بإمكانات Google وAmazon وAlibaba.",
     biography: "حمزة حسن الجزايري هو المؤسس والرئيس التنفيذي لشركة Megsy. يجمع عمله بين قيادة الشركة وبناء شراكات مع Google وAmazon وAlibaba.",
     biographyMore: "من هنا تبدأ حكاية Megsy: شركة تقنية بنظرة عالمية. الطموح هو تقريب المسافات بين الناس والأفكار والتكنولوجيا، وبناء شركة لها هوية واضحة وهدف يستمر مع الوقت.",
     visionLabel: "نظرة للمستقبل", visionTitle: "تكنولوجيا لها هدف واضح.", visionBody: "تطمح Megsy إلى وصل التكنولوجيا العالمية بالفرص في المنطقة. منتجات مفيدة، وشراكات مدروسة، وقيمة تستمر على المدى الطويل؛ هذه هي ملامح الاتجاه.",
     approach: "اتجاه نؤمن به، وليس خط نهاية.", approachBody: "بناء شركة يبدأ بالأسئلة الصحيحة: ما الذي يستحق أن نبنيه؟ ومن نخدم؟ وكيف يظل ما نقدمه مفيدًا؟ هذه الأفكار تعبر عن طموح للمستقبل، وليست قائمة بإنجازات مكتملة.",
-    stage: "على المسرح · مشهد تخيّلي", portrait: "بورتريه تحريري · تخيّلي", workspace: "في المكتب · مشهد تخيّلي", casual: "يوم عمل · مشهد تخيّلي", imageNote: "هذه البورتريهات والمشاهد انطباعات فنية أُعدّت لهذا الموقع، ولا توثّق فعاليات أو مقرات أو ظهورًا حقيقيًا.",
+    stage: "على المسرح · مشهد تخيّلي", meeting: "اجتماع شراكة · مشهد تخيّلي", portrait: "بورتريه تحريري · تخيّلي", workspace: "في المكتب · مشهد تخيّلي", casual: "يوم عمل · مشهد تخيّلي", imageNote: "هذه البورتريهات والمشاهد انطباعات فنية أُعدّت لهذا الموقع، ولا توثّق فعاليات أو مقرات أو ظهورًا حقيقيًا.",
     openPhoto: "عرض الصورة", close: "إغلاق الصورة", gallerySub: "نظرة شخصية على صاحب الفكرة وراء Megsy.",
     partnersBody: "تضم شراكات Megsy كلًا من Google وAmazon وAlibaba، بأدوار مختلفة في عالم التكنولوجيا.",
     partnerDescriptions: ["البحث والمعلومات والتكنولوجيا.", "التجارة والخدمات السحابية والبنية الرقمية.", "التجارة والربط بين الأسواق."],
