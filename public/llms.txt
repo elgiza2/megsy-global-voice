@@ -4,6 +4,7 @@
 
 - [Home](/): Hamza's profile and perspective
 - [Megsy AI](/megsy): AI creation tools and Megsy Bot customer support product
+- [GoodFirms company profile](https://www.goodfirms.co/company/megsy): Describes a single-screen AI workspace for chat, coding, images, documents, automation and collaboration
 - [Megsy Bot features](https://bot.megsyai.com/features): Official product descriptions, including document training and voice support
 - [Megsy Bot](https://bot.megsyai.com/): Company's published customer support chatbot features
 
