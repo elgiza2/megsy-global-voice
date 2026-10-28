@@ -8,7 +8,7 @@ import { PhotoGallery } from "@/components/PhotoGallery";
 import { Partners } from "@/components/Partners";
 import stage from "@/assets/hamza-keynote.jpg";
 import portrait from "@/assets/hamza-editorial.jpg";
-import workspace from "@/assets/hamza-office.jpg";
+import workspace from "@/assets/hamza-office-wide.jpg";
 
 const title = "Hamza Hassan Elgzairy — Founder & CEO of Megsy | حمزة حسن الجزايري";
 const description =
