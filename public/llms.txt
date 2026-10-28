@@ -3,8 +3,8 @@
 > Hamza Hassan Elgzairy (حمزة حسن الجزايري) is CEO of Megsy AI, as stated by Hamza.
 
 - [Home](/): Hamza's profile and perspective
-- [Megsy AI](/megsy): AI workspace, creation platform and customer support product
-- [EgyptInnovate profile](https://egyptinnovate.com/en/entities/profile/megsyai): Cairo-based integrated AI production, development and content workspace
+- [Megsy AI](/megsy): AI creation tools and Megsy Bot customer support product
+- [Megsy Bot features](https://bot.megsyai.com/features): Official product descriptions, including document training and voice support
 - [Megsy Bot](https://bot.megsyai.com/): Company's published customer support chatbot features
 
 Product descriptions reflect public company pages, not independent verification of performance. No verified Google, Amazon or Alibaba partnership claims are made on this website.
