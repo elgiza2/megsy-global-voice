@@ -1,5 +1,6 @@
 import type { Lang } from './i18n';
 import { goodFirmsListing } from './company-facts';
+import { getEditorial } from './editorial';
 
 const content = {
   en: {
@@ -63,4 +64,4 @@ const content = {
     companyHero: 'Megsy AI', companyHeroBody: 'مساحة عمل موحّدة للإنشاء بالذكاء الاصطناعي.', location: 'Megsy AI', founderLabel: 'قيادة الشركة', founderTitle: 'حمزة حسن\nالجزايري', founderBody: 'الرئيس التنفيذي لشركة Megsy AI. يجمع عمله بين قيادة الشركة والتكنولوجيا.', personalSite: 'تعرّف على حمزة',
   },
 };
-export const getContent = (lang: Lang) => content[lang];
+export const getContent = (lang: Lang) => ({ ...content[lang], ...getEditorial(lang) });

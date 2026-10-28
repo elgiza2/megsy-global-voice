@@ -33,7 +33,18 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       meetingCaption: c.meetingCaption, photoNote: c.photoNote, closePhoto: ar ? 'إغلاق الصورة' : 'Close photo',
       sourceNote: c.sourceNote, availability: c.availability,
       listingNote: c.listingNote, listingUrl: c.listingUrl,
+      menuAbout: c.menuAbout, menuWork: c.menuWork, menuPhotos: c.menuPhotos, menuFaq: c.menuFaq,
+      chapter: c.chapter, heroCta: c.heroCta, companySectionLabel: c.companySectionLabel,
+      companySectionTitle: c.companySectionTitle, companySectionBody: c.companySectionBody,
+      companySectionMore: c.companySectionMore, companyCta: c.companyCta,
+      activeLabel: c.activeLabel, activeName: c.activeName,
+      approachLabel: c.approachLabel, approachTitle: c.approachTitle, approachBody: c.approachBody,
+      faqLabel: c.faqLabel, faqTitle: c.faqTitle,
+      contactEyebrow: c.contactEyebrow, contactHeading: c.contactHeading, contactText: c.contactText,
+      companyBody: c.companySectionBody,
     };
+    c.approachItems.forEach((item, index) => { values[`approachTitle${index}`] = item.title; values[`approachBody${index}`] = item.body; });
+    c.faqs.forEach((item, index) => { values[`faqQuestion${index}`] = item.question; values[`faqAnswer${index}`] = item.answer; });
     c.sources.forEach((source, index) => { values[`sourceName${index}`] = source.name; values[`sourceUrl${index}`] = source.url; });
     c.products.forEach((p, index) => {
       values[`productTitle${index}`] = p.title; values[`productBody${index}`] = p.body;
