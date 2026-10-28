@@ -1,9 +1,5 @@
 # Roadmap
 
-# Petalyx landing page
-- [x] Restore the supplied standalone Petalyx design as the homepage using the exact supplied media and libraries.
-- [x] Verify introduction, counters, accordion, anchor navigation, mobile layout and reduced motion; five tests passed and browser checks passed. Supplied video reports unsupported media (code 4) in test Chromium; exact supplied poster remains visible as fallback.
-
 # Hamza redesign
 - [x] Research Megsy AI and incorporate sourced information without unsupported claims (EgyptInnovate and Megsy Bot verified; main website currently reports a paused deployment, creation-platform features attributed to its public descriptions).
 - [x] Rename the visible site Hamza and replace both pages with a clean editorial design.
