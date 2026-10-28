@@ -22,7 +22,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       language: ar ? 'English' : 'العربية',
       menuAbout: c.menuAbout, menuWork: c.menuWork, menuPhotos: c.menuPhotos, menuFaq: c.menuFaq,
       companyLabel: company ? c.personalSite : c.nav.company,
-      heroEyebrow: company ? c.companySectionLabel.replace(/^\d+\s*\/\s*/, '') : c.role,
+      heroEyebrow: company ? (ar ? 'مساحة عمل بالذكاء الاصطناعي' : 'AI workspace') : c.role,
       heroName: company ? 'Megsy AI' : 'Hamza',
       heroBody: company ? c.companyIntro : c.heroBody,
       discover: company ? c.personalSite : c.discover,
