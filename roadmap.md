@@ -1,8 +1,8 @@
 # Roadmap
 
 # Codex reference redesign
-- [ ] Replace the rejected presentation with Codex-inspired colors, centered layout and a moving background on both pages.
-- [ ] Verify animations, Arabic and English, navigation, photographs and mobile layout.
+- [x] Replace the rejected presentation with Codex-inspired pale colors, centered layout and a subtly moving texture background on both pages; remove cherry-blossom imagery.
+- [x] Verify changing animation frames, reduced-motion fallback, Arabic and English, company navigation and return, photo lightbox, FAQ and mobile layout; four tests passed and no browser errors.
 
 # Fuller editorial presentation
 - [x] Rework both pages with clearer navigation, readable sections and a more polished visual hierarchy.
