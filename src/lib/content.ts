@@ -1,0 +1,41 @@
+import type { Lang } from "./i18n";
+
+const content = {
+  en: {
+    name: "Hamza Hassan Elgzairy", shortName: "Hamza Elgzairy", about: "About", gallery: "In pictures", philosophy: "A perspective on building", company: "The company", companyTitle: "Global partnerships. A regional ambition.",
+    intro: "Founder and CEO of Megsy. Connecting a technology company’s ambition with the possibilities of Google, Amazon and Alibaba.",
+    biography: "Hamza Hassan Elgzairy is the founder and CEO of Megsy. His work brings together company leadership and partnerships with Google, Amazon and Alibaba.",
+    biographyMore: "This is the starting point of the Megsy story: a technology company with a global outlook. The ambition is to bring people, ideas and technology closer together, and build a company with a clear identity and a lasting purpose.",
+    visionLabel: "Looking ahead", visionTitle: "Technology with a clear purpose.", visionBody: "Megsy’s ambition is to bridge global technology and regional opportunity. A focus on useful products, thoughtful partnerships and long-term value shapes that direction.",
+    approach: "A direction, not a finish line.", approachBody: "Building a company means asking the right questions: what is worth making, who does it serve, and how can it remain useful? These ideas describe an ambition for the future, not a list of completed achievements.",
+    stage: "Imagined stage scene · AI-generated", portrait: "Editorial portrait · AI-generated", workspace: "Imagined workspace · AI-generated", original: "Original photo", imageNote: "The edited portraits and imagined scenes are based on Hamza’s original photo; they do not document real events or offices.",
+    openPhoto: "View photo", close: "Close photo", gallerySub: "A personal look at the person behind Megsy.",
+    partnersBody: "Megsy’s partners include Google, Amazon and Alibaba. Each brings a different perspective to the global technology landscape.",
+    partnerDescriptions: ["Search, information and technology.", "Commerce, cloud and digital infrastructure.", "Commerce and connections across markets."],
+    companyIntro: "Led by Hamza Hassan Elgzairy, Megsy is a technology company with partnerships spanning Google, Amazon and Alibaba.",
+    companyMore: "Its direction is grounded in a straightforward ambition: connect global opportunities with a company built for the long term. The emphasis is on meaningful relationships and technology with a practical purpose.",
+    focusLabel: "Our direction", focusTitle: "What we want to build toward.",
+    focus: [{ title: "Useful technology", body: "An ambition to develop products that address real needs, with clarity and care at their core." }, { title: "Meaningful partnerships", body: "A commitment to relationships that connect expertise, ideas and opportunity." }, { title: "A global outlook", body: "A regional perspective, with the ambition to participate in a wider technology conversation." }],
+    faqTitle: "A few things to know", faq: [{ q: "Who is Hamza Hassan Elgzairy?", a: "Hamza Hassan Elgzairy is the founder and CEO of Megsy." }, { q: "What is Megsy?", a: "Megsy is a technology company led by Hamza Hassan Elgzairy." }, { q: "Who are Megsy’s partners?", a: "Megsy’s partners include Google, Amazon and Alibaba." }],
+    contactTopics: ["Partnerships", "Press enquiries", "Speaking invitations"], backTop: "Back to top",
+  },
+  ar: {
+    name: "حمزة حسن الجزايري", shortName: "حمزة الجزايري", about: "عن حمزة", gallery: "بالصور", philosophy: "رؤية للبناء", company: "الشركة", companyTitle: "شراكات عالمية. وطموح من المنطقة.",
+    intro: "المؤسس والرئيس التنفيذي لشركة Megsy. طموح شركة تقنية يلتقي بإمكانات Google وAmazon وAlibaba.",
+    biography: "حمزة حسن الجزايري هو المؤسس والرئيس التنفيذي لشركة Megsy. يجمع عمله بين قيادة الشركة وبناء شراكات مع Google وAmazon وAlibaba.",
+    biographyMore: "من هنا تبدأ حكاية Megsy: شركة تقنية بنظرة عالمية. الطموح هو تقريب المسافات بين الناس والأفكار والتكنولوجيا، وبناء شركة لها هوية واضحة وهدف يستمر مع الوقت.",
+    visionLabel: "نظرة للمستقبل", visionTitle: "تكنولوجيا لها هدف واضح.", visionBody: "تطمح Megsy إلى وصل التكنولوجيا العالمية بالفرص في المنطقة. منتجات مفيدة، وشراكات مدروسة، وقيمة تستمر على المدى الطويل؛ هذه هي ملامح الاتجاه.",
+    approach: "اتجاه نؤمن به، وليس خط نهاية.", approachBody: "بناء شركة يبدأ بالأسئلة الصحيحة: ما الذي يستحق أن نبنيه؟ ومن نخدم؟ وكيف يظل ما نقدمه مفيدًا؟ هذه الأفكار تعبر عن طموح للمستقبل، وليست قائمة بإنجازات مكتملة.",
+    stage: "مشهد مسرح تخيّلي · بالذكاء الاصطناعي", portrait: "بورتريه معدّل · بالذكاء الاصطناعي", workspace: "مساحة عمل تخيّلية · بالذكاء الاصطناعي", original: "الصورة الأصلية", imageNote: "البورتريهات المعدّلة والمشاهد التخيّلية مبنية على صورة حمزة الأصلية، ولا توثّق فعاليات أو مقرات حقيقية.",
+    openPhoto: "عرض الصورة", close: "إغلاق الصورة", gallerySub: "نظرة شخصية على صاحب الفكرة وراء Megsy.",
+    partnersBody: "تضم شراكات Megsy كلًا من Google وAmazon وAlibaba، بأدوار مختلفة في عالم التكنولوجيا.",
+    partnerDescriptions: ["البحث والمعلومات والتكنولوجيا.", "التجارة والخدمات السحابية والبنية الرقمية.", "التجارة والربط بين الأسواق."],
+    companyIntro: "Megsy شركة تقنية يقودها حمزة حسن الجزايري، وتضم شراكاتها Google وAmazon وAlibaba.",
+    companyMore: "يتشكل اتجاه الشركة حول طموح واضح: ربط الفرص العالمية بشركة تُبنى للمدى الطويل. الاهتمام بالعلاقات الجادة، وبالتكنولوجيا التي لها غرض عملي، هو نقطة البداية.",
+    focusLabel: "اتجاهنا", focusTitle: "ما نطمح إلى بنائه.",
+    focus: [{ title: "تكنولوجيا مفيدة", body: "طموح لتطوير منتجات تعالج احتياجات حقيقية، ويكون الوضوح والاهتمام بالتفاصيل جزءًا منها." }, { title: "شراكات لها معنى", body: "اهتمام بعلاقات تجمع الخبرات والأفكار والفرص، وتفتح مجالًا للعمل المشترك." }, { title: "نظرة عالمية", body: "منظور ينطلق من المنطقة، وطموح للمشاركة في حوار تكنولوجي أوسع." }],
+    faqTitle: "أسئلة عن حمزة وMegsy", faq: [{ q: "من هو حمزة حسن الجزايري؟", a: "حمزة حسن الجزايري هو المؤسس والرئيس التنفيذي لشركة Megsy." }, { q: "ما هي شركة Megsy؟", a: "Megsy شركة تقنية يقودها حمزة حسن الجزايري." }, { q: "من هم شركاء Megsy؟", a: "تضم شراكات Megsy كلًا من Google وAmazon وAlibaba." }],
+    contactTopics: ["الشراكات", "التواصل الصحفي", "دعوات التحدث"], backTop: "العودة للأعلى",
+  },
+};
+export const getContent = (lang: Lang) => content[lang];
