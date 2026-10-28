@@ -3,6 +3,9 @@ import { useNavigate } from '@tanstack/react-router';
 import { useLang } from '@/lib/i18n';
 import { getContent } from '@/lib/content';
 import template from './blossom/landscape.html?raw';
+import conferencePhoto from '@/assets/hamza-conference-reference.jpg';
+import meetingPhoto from '@/assets/hamza-meeting-reference.jpg';
+import companyLogo from '@/assets/megsy-official-icon.png.asset.json';
 
 const escapeHtml = (value: string) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 export function BlossomPage({ company = false }: { company?: boolean }) {
@@ -24,7 +27,15 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       contactLabel: c.contactLabel, contactTitle: c.contactTitle.replace(/\n/g, ' '), contactBody: c.contactBody,
       contactButton: c.contactButton, aboutLink: c.aboutLink, sourcesLabel: c.sourcesLabel,
       contactLink: c.nav.contact, footerHome: company ? c.personalSite : c.name,
+      identityLabel: ar ? 'الرئيس التنفيذي' : 'CEO',
+      heroPhoto: company ? meetingPhoto : conferencePhoto, heroPhotoAlt: company ? c.meetingCaption : c.conferenceCaption,
+      companyLogo: companyLogo.url, conferencePhoto, meetingPhoto,
+      galleryLabel: c.galleryLabel, galleryTitle: c.galleryTitle, conferenceCaption: c.conferenceCaption,
+      meetingCaption: c.meetingCaption, photoNote: c.photoNote, closePhoto: ar ? 'إغلاق الصورة' : 'Close photo',
+      sourceNote: c.sourceNote, availability: c.availability,
+      listingNote: c.listingNote, listingUrl: c.listingUrl,
     };
+    c.sources.forEach((source, index) => { values[`sourceName${index}`] = source.name; values[`sourceUrl${index}`] = source.url; });
     c.products.forEach((p, index) => {
       values[`productTitle${index}`] = p.title; values[`productBody${index}`] = p.body;
       values[`productUrl${index}`] = p.url; values[`productDomain${index}`] = p.domain;
