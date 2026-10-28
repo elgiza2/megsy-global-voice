@@ -20,7 +20,7 @@ const content = {
     productLabel: 'The ecosystem', productTitle: 'Explore the work.', productSub: 'Product descriptions below reflect Megsy’s public pages and ecosystem listing.',
     products: [
       { name: 'Megsy AI', tag: 'Workspace', symbol: 'spark', title: 'Ideas, connected.', body: 'A workspace bringing together AI-assisted production, coding and content creation.', url: 'https://www.megsyai.com/', domain: 'megsyai.com' },
-      { name: 'Megsy Studio', tag: 'Creation platform', symbol: 'code', title: 'From prompt to creation.', body: 'The creation platform advertises chat, image and video generation, plus coding tools.', url: 'https://api.megsyai.com/', domain: 'api.megsyai.com' },
+      { name: 'Megsy AI', tag: 'Creation platform', symbol: 'code', title: 'From prompt to creation.', body: 'The creation platform advertises chat, image and video generation, plus coding tools.', url: 'https://api.megsyai.com/', domain: 'api.megsyai.com' },
       { name: 'Megsy Bot', tag: 'Customer support', symbol: 'chat', title: 'A conversation, continued.', body: 'A customizable AI support chatbot for websites, with brand styling, context settings and voice features.', url: 'https://bot.megsyai.com/', domain: 'bot.megsyai.com' },
     ],
     sourcesLabel: 'Public sources', sourceNote: 'Company information is drawn from the sources below. Product descriptions are not independent performance claims.',
@@ -47,7 +47,7 @@ const content = {
     productLabel: 'منظومة Megsy', productTitle: 'تعرّف على المنتجات.', productSub: 'الأوصاف التالية مستندة إلى صفحات Megsy العامة وملفها على EgyptInnovate.',
     products: [
       { name: 'Megsy AI', tag: 'مساحة العمل', symbol: 'spark', title: 'الأفكار، في مكان واحد.', body: 'مساحة تجمع أدوات الإنتاج والبرمجة وصناعة المحتوى بمساعدة الذكاء الاصطناعي.', url: 'https://www.megsyai.com/', domain: 'megsyai.com' },
-      { name: 'Megsy Studio', tag: 'منصة الإنشاء', symbol: 'code', title: 'من الطلب إلى الإبداع.', body: 'تقدّم المنصة نفسها كمساحة للمحادثة وتوليد الصور والفيديو وأدوات البرمجة.', url: 'https://api.megsyai.com/', domain: 'api.megsyai.com' },
+      { name: 'Megsy AI', tag: 'منصة الإنشاء', symbol: 'code', title: 'من الطلب إلى الإبداع.', body: 'تقدّم المنصة نفسها كمساحة للمحادثة وتوليد الصور والفيديو وأدوات البرمجة.', url: 'https://api.megsyai.com/', domain: 'api.megsyai.com' },
       { name: 'Megsy Bot', tag: 'خدمة العملاء', symbol: 'chat', title: 'محادثة لا تنقطع.', body: 'بوت دعم بالذكاء الاصطناعي للمواقع، مع تخصيص الهوية وإعداد السياق وإمكانات صوتية.', url: 'https://bot.megsyai.com/', domain: 'bot.megsyai.com' },
     ],
     sourcesLabel: 'مصادر المعلومات', sourceNote: 'معلومات الشركة مأخوذة من المصادر التالية. أوصاف المنتجات لا تمثّل تقييمًا مستقلًا لأدائها.',
