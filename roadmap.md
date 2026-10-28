@@ -1,5 +1,10 @@
 # Roadmap
 
+# Simple Codex-style rebuild
+- [x] Rebuild both pages as a very simple, uncluttered Codex-style layout with no icons and a moving painted-sky background.
+- [x] Replace photos with new realistic reference-based photos (desk, stage, team, window), Hamza not looking at camera.
+- [x] Verify desktop and phone, Arabic and English, company link; tests passed.
+
 # Codex reference redesign
 - [x] Replace the rejected presentation with Codex-inspired pale colors, centered layout and a subtly moving texture background on both pages; remove cherry-blossom imagery.
 - [x] Verify changing animation frames, reduced-motion fallback, Arabic and English, company navigation and return, photo lightbox, FAQ and mobile layout; four tests passed and no browser errors.
