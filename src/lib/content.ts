@@ -2,7 +2,7 @@ import type { Lang } from "./i18n";
 
 const content = {
   en: {
-    name: "Hamza Hassan Elgzairy", shortName: "Hamza Elgzairy", about: "About", gallery: "In pictures", philosophy: "A perspective on building", company: "The company", companyTitle: "Global partnerships. A regional ambition.",
+    name: "Hamza Hassan Elgzairy", shortName: "Elgzairy", about: "About", gallery: "In pictures", philosophy: "A perspective on building", company: "The company", companyTitle: "Global partnerships. A regional ambition.",
     intro: "Founder and CEO of Megsy. Connecting a technology company’s ambition with the possibilities of Google, Amazon and Alibaba.",
     biography: "Hamza Hassan Elgzairy is the founder and CEO of Megsy. His work brings together company leadership and partnerships with Google, Amazon and Alibaba.",
     biographyMore: "This is the starting point of the Megsy story: a technology company with a global outlook. The ambition is to bring people, ideas and technology closer together, and build a company with a clear identity and a lasting purpose.",
@@ -20,7 +20,7 @@ const content = {
     contactTopics: ["Partnerships", "Press enquiries", "Speaking invitations"], backTop: "Back to top",
   },
   ar: {
-    name: "حمزة حسن الجزايري", shortName: "حمزة الجزايري", about: "عن حمزة", gallery: "بالصور", philosophy: "رؤية للبناء", company: "الشركة", companyTitle: "شراكات عالمية. وطموح من المنطقة.",
+    name: "حمزة حسن الجزايري", shortName: "الجزايري", about: "عن حمزة", gallery: "بالصور", philosophy: "رؤية للبناء", company: "الشركة", companyTitle: "شراكات عالمية. وطموح من المنطقة.",
     intro: "المؤسس والرئيس التنفيذي لشركة Megsy. طموح شركة تقنية يلتقي بإمكانات Google وAmazon وAlibaba.",
     biography: "حمزة حسن الجزايري هو المؤسس والرئيس التنفيذي لشركة Megsy. يجمع عمله بين قيادة الشركة وبناء شراكات مع Google وAmazon وAlibaba.",
     biographyMore: "من هنا تبدأ حكاية Megsy: شركة تقنية بنظرة عالمية. الطموح هو تقريب المسافات بين الناس والأفكار والتكنولوجيا، وبناء شركة لها هوية واضحة وهدف يستمر مع الوقت.",

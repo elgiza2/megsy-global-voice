@@ -4,18 +4,18 @@ import { Button } from "./ui/button";
 import { useLang } from "@/lib/i18n";
 import { getContent } from "@/lib/content";
 import portrait from "@/assets/hamza-editorial.jpg";
-import workspace from "@/assets/hamza-office.jpg";
+import meeting from "@/assets/hamza-meeting.jpg";
 import casual from "@/assets/hamza-casual.jpg";
 
 export function PhotoGallery() {
   const { lang } = useLang();
   const c = getContent(lang);
-  const photos = [{ src: portrait, label: c.portrait }, { src: workspace, label: c.workspace }, { src: casual, label: c.casual }];
+  const photos = [{ src: portrait, label: c.portrait }, { src: meeting, label: c.meeting }, { src: casual, label: c.casual }];
   const [selected, setSelected] = useState({ src: portrait, label: c.portrait });
   const dialog = useRef<HTMLDialogElement>(null);
   return <section id="pictures" className="section-wrap scroll-mt-24">
     <div className="mb-10 flex flex-wrap items-end justify-between gap-4"><h2 className="section-title">{c.gallery}</h2><p className="max-w-sm text-muted-foreground">{c.gallerySub}</p></div>
-    <div className="grid gap-6 md:grid-cols-[1fr_1.6fr_1fr]">{photos.map(photo => <figure key={photo.src}>
+    <div className="grid gap-6 md:grid-cols-[1fr_1.6fr_1fr]">{photos.map(photo => <figure key={photo.label}>
       <Button variant="ghost" className="group relative h-auto w-full overflow-hidden rounded-lg p-0" aria-label={`${c.openPhoto}: ${photo.label}`} onClick={() => { setSelected(photo); dialog.current?.showModal(); }}>
         <img src={photo.src} alt={`${c.name} — ${photo.label}`} loading="lazy" className="aspect-[4/5] w-full object-cover transition-transform duration-500 motion-safe:group-hover:scale-105" />
         <span className="absolute end-3 bottom-3 rounded-full bg-background/90 p-2 text-foreground"><Maximize2 /></span>
