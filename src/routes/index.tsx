@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
 import { PhotoGallery } from "@/components/PhotoGallery";
 import { Partners } from "@/components/Partners";
-import stage from "@/assets/hamza-stage.jpg";
-import portrait from "@/assets/hamza-portrait.jpg";
-import workspace from "@/assets/hamza-workspace.jpg";
+import stage from "@/assets/hamza-keynote.jpg";
+import portrait from "@/assets/hamza-editorial.jpg";
+import workspace from "@/assets/hamza-office.jpg";
 
 const title = "Hamza Hassan Elgzairy — Founder & CEO of Megsy | حمزة حسن الجزايري";
 const description =
