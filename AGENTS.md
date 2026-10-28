@@ -11,5 +11,6 @@
 
 - Keep shared bilingual editorial copy in a browser-safe content module and consume it using the existing language provider, so both pages stay consistent.
 - Use imported editorial technology assets for page visuals; personal photography must not be replaced with generated lookalikes because identity accuracy matters.
-- Keep the Hamza homepage and Megsy company page as native TanStack routes sharing the bilingual shell and product sections; Petalyx remains an isolated legacy standalone page, not the homepage.
+- Keep Hamza and Megsy as TanStack content routes embedding the shared inline landscape template via BlossomPage; interpolate browser-safe bilingual content and scope language/navigation messages to the owning iframe for design isolation.
+- Keep the reference Petalyx standalone HTML separate from Hamza branding and factual company content.
 - Keep public company sources alongside shared product descriptions and avoid turning advertised features into verified performance or partnership claims.
