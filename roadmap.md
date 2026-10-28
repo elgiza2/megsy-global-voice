@@ -1,3 +1,9 @@
+# Company and leadership focus
+- [x] Refocus both pages and search information on Hamza and Megsy LLC, distinguishing the company from Megsy AI.
+- [x] Replace product-led sections with company direction and leadership; remove generated documentary scenes.
+- [x] Verify both languages and navigation.
+- [ ] Add authentic work/event photographs: waiting for actual photos from Hamza.
+
 # Roadmap
 
 # Simple Codex-style rebuild
