@@ -1,9 +1,9 @@
 # Additional company listings
-- [ ] Replace repetitive company/product identity copy with professional bilingual corporate writing; evaluate a GitHub writing skill.
-- [ ] Correct route metadata and search identity without unsupported claims.
-- [ ] Remove old personal-site links and references from both languages and search-facing content.
-- [ ] Find and add further confirmed Megsy listings without treating directories as journalism.
-- [ ] Verify sources and language/navigation flows.
+- [x] Replace repetitive company/product identity copy with professional bilingual corporate writing; evaluated Corey Haines Copywriting and complementary guides as editorial references, not installed skills.
+- [x] Correct route metadata and search identity without unsupported claims; self-referencing canonical/OG URLs and functional language query links verified. Search scanners not yet run; actual indexing/ranking unverified. Sitemap waits for a public site URL.
+- [x] Remove old personal-site links and references from both languages and search-facing content.
+- [x] Find and add eleven further confirmed Megsy listings, bringing source records to sixteen without treating directories as journalism.
+- [x] Verify sources and language/navigation flows; six tests passed, both routes/languages and phone layout checked.
 
 # Company research and editorial cleanup
 - [x] Research official company pages, relevant directories and independent articles; six source records added, company releases distinguished from journalism (no independent reported article found).
