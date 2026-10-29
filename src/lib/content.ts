@@ -12,7 +12,7 @@ const content = {
     discover: 'About Megsy LLC', aboutLink: 'About Hamza', scroll: 'Ideas into direction',
     aboutLabel: 'About Hamza', aboutTitle: 'Hamza Hassan Elgzairy.',
     biography: 'I’m Hamza Hassan Elgzairy, CEO of Megsy LLC. My focus is the company’s direction: connecting an ambition for technology with clear priorities and useful work.',
-    biographyMore: 'This website presents the person and the company behind the product. Megsy LLC is the company; Megsy AI is its currently active offering. The company’s story is broader than a list of product features.',
+    biographyMore: 'My ambition is to develop AI that helps people carry out practical tasks, while building the company with a long-term perspective.',
     perspective: 'A perspective on building', principles: [
       { title: 'Clarity first.', body: 'Start with the problem. Give every idea a clear purpose before adding complexity.' },
       { title: 'Useful by design.', body: 'Technology matters when it helps people do meaningful work.' },
@@ -48,7 +48,7 @@ const content = {
     ],
     contactLabel: 'Start a conversation', contactTitle: 'Good ideas start\nwith a conversation.', contactBody: 'Explore the active Megsy AI platform.', contactButton: 'Visit Megsy AI', support: 'Company support', backTop: 'Back to top', footer: 'Hamza Hassan Elgzairy · Megsy LLC',
     galleryLabel: 'Hamza', galleryTitle: 'In conversation. At work.', conferenceCaption: 'Conference setting', meetingCaption: 'Meeting setting', photoNote: 'Images edited from Hamza’s original photograph; the settings are imagined, not documentation of real events.', availability: 'Only Megsy AI is currently active, as confirmed by the company’s CEO. The customer-support service is paused. Descriptions reflect public company profiles, not independent performance tests.',
-    companyHero: 'Megsy LLC', companyHeroBody: 'An Egypt-based AI company led by Hamza Hassan Elgzairy. The company behind Megsy AI, connecting conversation, creation and development in one workspace.', location: 'Megsy AI', founderLabel: 'Leadership', founderTitle: 'Hamza Hassan\nElgzairy', founderBody: 'CEO of Megsy LLC. Working at the intersection of company leadership and technology.', personalSite: 'Meet Hamza',
+    companyHero: 'Megsy LLC', companyHeroBody: 'An Egypt-based AI company led by Hamza Hassan Elgzairy. Developing integrated software for conversation, creation and programming.', location: 'Megsy AI', founderLabel: 'Leadership', founderTitle: 'Hamza Hassan\nElgzairy', founderBody: 'CEO of Megsy LLC. Working at the intersection of company leadership and technology.', personalSite: 'Meet Hamza',
   },
   ar: {
     listingNote: `ظهرت Megsy في الموضع ${goodFirmsListing.position} بقائمة GoodFirms لشركات الحوسبة السحابية في مصر عند مراجعتها يوم 28 أكتوبر 2026. هذا ترتيب الظهور في القائمة، وليس تصنيفًا عامًا للشركات المصرية، وقد يتغيّر ترتيب الدليل.`,
@@ -59,7 +59,7 @@ const content = {
     discover: 'عن شركة Megsy LLC', aboutLink: 'عن حمزة', scroll: 'من الفكرة إلى الاتجاه',
     aboutLabel: 'عن حمزة', aboutTitle: 'حمزة حسن الجزايري.',
     biography: 'أنا حمزة حسن الجزايري، الرئيس التنفيذي لشركة Megsy LLC. ينصبّ اهتمامي على اتجاه الشركة: تحويل الطموح في التكنولوجيا إلى أولويات واضحة وعمل له قيمة.',
-    biographyMore: 'هذا الموقع عن الشخص والشركة وراء المنتج. Megsy LLC هي الشركة، وMegsy AI هو منتجها المتاح حاليًا. وحكاية الشركة أوسع من مجرد قائمة بإمكانات المنتج.',
+    biographyMore: 'طموحي هو تطوير ذكاء اصطناعي يساعد الناس على تنفيذ مهام عملية، وبناء الشركة بنظرة طويلة المدى.',
     perspective: 'نظرة إلى البناء', principles: [
       { title: 'الوضوح أولًا.', body: 'نبدأ من المشكلة. لكل فكرة هدف واضح قبل إضافة المزيد من التعقيد.' },
       { title: 'الفائدة هي الأساس.', body: 'قيمة التكنولوجيا فيما تساعد الناس على إنجازه فعلًا.' },
