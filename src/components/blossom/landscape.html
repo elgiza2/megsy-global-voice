@@ -153,5 +153,31 @@ var canvas=document.querySelector('.sky'),ctx=canvas.getContext&&canvas.getConte
 if(!reduced&&ctx){var visible=true,last=0,W=960,H=540;canvas.width=W;canvas.height=H;tex.src=document.querySelector('.sky-still').src;
 function paint(t){requestAnimationFrame(paint);if(!visible||document.hidden||t-last<40||!tex.complete||!tex.naturalWidth)return;last=t;var k=t*.00016,th=tex.naturalHeight,tw=tex.naturalWidth;ctx.clearRect(0,0,W,H);for(var y=0;y<H;y+=3){var dx=Math.sin(y*.012+k*2)*14+Math.sin(y*.005-k)*10;ctx.drawImage(tex,0,y/H*th,tw,3/H*th+1,dx-30+Math.sin(k)*20,y,W+60,4)}}
 requestAnimationFrame(paint);if('IntersectionObserver' in window)new IntersectionObserver(function(es){visible=es[0].isIntersecting}).observe(canvas)}
+
+/* Cinematic footer: every scene change comes from the clip, never drawn in code. */
+var footer=document.querySelector('.fscene'),video=document.querySelector('.f-video'),fx=document.querySelector('.f-fx'),power=document.querySelector('.f-power'),skyC=document.querySelector('.f-sky');
+if(footer&&video&&power){
+var fctx=fx.getContext&&fx.getContext('2d'),skyCtx=skyC.getContext&&skyC.getContext('2d');
+var fState='boot',dotDone=false,dot=null,footerVisible=false,litTimer=null;
+var glints=[];for(var gi=0;gi<22;gi++)glints.push({x:Math.random(),y:Math.random()*.55,s:.6+Math.random()*1.4,p:Math.random()*6.28});
+function videoMap(){var fr=footer.getBoundingClientRect(),vr=video.getBoundingClientRect(),s=Math.max(vr.width/1920,vr.height/1080),dw=1920*s,dh=1080*s;return{x:vr.left-fr.left+(vr.width-dw)/2,y:vr.top-fr.top+(vr.height-dh),s:s}}
+function sizeFx(){var d=Math.min(devicePixelRatio||1,2),r=footer.getBoundingClientRect();fx.width=Math.round(r.width*d);fx.height=Math.round(r.height*d);if(skyC)skyC.width=Math.round(r.width*d),skyC.height=Math.round(r.height*d)}
+function easeIO(t){return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2}
+function launchDot(){var m=videoMap(),pr=power.getBoundingClientRect(),fr=footer.getBoundingClientRect();dot={t0:performance.now(),x0:m.x+945*m.s,y0:m.y+594*m.s,x2:pr.left-fr.left+pr.width/2,y2:pr.top-fr.top+pr.height/2};dot.x1=(dot.x0+dot.x2)/2-120;dot.y1=Math.min(dot.y0,dot.y2)-160}
+function drawFx(t){requestAnimationFrame(drawFx);if(!footerVisible||document.hidden||!fctx)return;var d=Math.min(devicePixelRatio||1,2),W=fx.width/d,H=fx.height/d;fctx.setTransform(d,0,0,d,0,0);fctx.clearRect(0,0,W,H);var m=videoMap(),ct=video.currentTime,night=Math.max(0,Math.min(1,(ct-2.7)/1.7));
+var n=Math.round(10+12*night);fctx.strokeStyle='#fff';fctx.lineWidth=1.1;for(var i=0;i<n;i++){var g=glints[i],a=(.3+.7*Math.abs(Math.sin(t*.001*g.s+g.p)))*(.6+.4*night);fctx.globalAlpha=Math.min(1,a);var gx=g.x*W,gy=g.y*H*.6,gs=2.2+g.s*1.6;fctx.beginPath();fctx.moveTo(gx-gs,gy);fctx.lineTo(gx+gs,gy);fctx.moveTo(gx,gy-gs);fctx.lineTo(gx,gy+gs);fctx.stroke()}
+fctx.globalAlpha=1;
+if(fState==='on'||fState==='oning'){var sx=m.x+806*m.s,sy=m.y+505*m.s,sw=271*m.s,sh=219*m.s,per=(t%1800)/1800,by=sy+per*(sh+52*m.s)-26*m.s;fctx.save();fctx.beginPath();fctx.rect(sx,sy,sw,sh);fctx.clip();fctx.fillStyle='rgba(255,255,255,'+(0.1*(0.7+0.3*Math.sin(t*.02)))+')';fctx.fillRect(sx,by,sw,52*m.s);fctx.restore()}
+if(dot){var p=Math.min(1,(t-dot.t0)/780),e=easeIO(p),ix=(1-e)*(1-e)*dot.x0+2*(1-e)*e*dot.x1+e*e*dot.x2,iy=(1-e)*(1-e)*dot.y0+2*(1-e)*e*dot.y1+e*e*dot.y2,cr=3+3*Math.sin(Math.PI*p);var grd=fctx.createRadialGradient(ix,iy,0,ix,iy,cr*6);grd.addColorStop(0,'rgba(255,255,255,.95)');grd.addColorStop(.25,'rgba(255,255,255,.45)');grd.addColorStop(1,'rgba(255,255,255,0)');fctx.fillStyle=grd;fctx.beginPath();fctx.arc(ix,iy,cr*6,0,6.29);fctx.fill();fctx.fillStyle='#fff';fctx.beginPath();fctx.arc(ix,iy,cr,0,6.29);fctx.fill();if(p>=1){dot=null;power.style.setProperty('--lit','0.9');clearTimeout(litTimer);litTimer=setTimeout(function(){power.style.setProperty('--lit','0')},120)}}}
+function toOn(){fState='oning';power.setAttribute('aria-pressed','false');try{video.currentTime=0.6}catch(e){}var pr=video.play();if(pr&&pr.catch)pr.catch(function(){})}
+video.addEventListener('timeupdate',function(){if(fState==='oning'&&video.currentTime>=2.3){video.pause();fState='on'}else if(fState==='offing'){if(video.currentTime>=4.72&&!dotDone){dotDone=true;launchDot()}if(video.currentTime>=4.98){video.pause();fState='off';power.setAttribute('aria-pressed','true')}}});
+video.addEventListener('ended',function(){if(fState==='offing'){video.pause();fState='off';power.setAttribute('aria-pressed','true')}});
+power.addEventListener('click',function(){if(reduced)return;if(fState==='on'){fState='offing';dotDone=false;var pr=video.play();if(pr&&pr.catch)pr.catch(function(){})}else if(fState==='off'){toOn()}});
+sizeFx();addEventListener('resize',sizeFx);
+if('IntersectionObserver' in window)new IntersectionObserver(function(es){footerVisible=es[0].isIntersecting},{threshold:0}).observe(footer);else footerVisible=true;
+requestAnimationFrame(drawFx);
+if(reduced){footer.classList.add('on')}else if('IntersectionObserver' in window){var fo=new IntersectionObserver(function(es){if(es[0].isIntersecting){footer.classList.add('on');toOn();fo.disconnect()}},{threshold:.35});fo.observe(footer)}else{footer.classList.add('on');toOn()}
+if(skyCtx&&innerWidth<=760&&!reduced){(function paintSky(){requestAnimationFrame(paintSky);if(!footerVisible||document.hidden||video.readyState<2)return;skyCtx.setTransform(1,0,0,1,0,0);skyCtx.filter='blur(18px)';try{skyCtx.drawImage(video,0,0,video.videoWidth,video.videoHeight*.28,-30,-30,skyC.width+60,skyC.height+60)}catch(e){}skyCtx.filter='none'})()}
+}
 })();
 </script></body></html>
