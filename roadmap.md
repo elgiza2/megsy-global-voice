@@ -1,3 +1,8 @@
+# Company research and editorial cleanup
+- [ ] Research official company pages, relevant directories and independent articles; add only attributable findings and real source links.
+- [ ] Replace the rejected purpose section and its icons with professional company editorial; remove numbered eyebrows and move language switching to the footer.
+- [ ] Verify Arabic/English, navigation, questions and footer switching on desktop and phone; run relevant tests.
+
 # Triptych section presentation
 - [x] Preserve the approved hero and replace leadership/company/vision sections with Falcon-inspired cards and canvas visuals.
 - [x] Verify card entrance, both languages, desktop and phone layouts, navigation and reduced motion.
