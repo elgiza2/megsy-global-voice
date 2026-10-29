@@ -5,7 +5,6 @@
 - [Home](/): Hamza's profile and perspective
 - [Megsy LLC](/megsy): Company leadership and vision. Megsy AI is its currently active product.
 - [GoodFirms company profile](https://www.goodfirms.co/company/megsy): Describes a single-screen AI workspace for chat, coding, images, documents, automation and collaboration
-- [Hamza's personal website](https://elgiza.dev/): His self-described vision for AI infrastructure built from Egypt and practical task-performing AI. These are aspirations, not delivered national infrastructure.
 - [PRLog company announcement](https://www.prlog.org/13158812-megsy-ai-launches-all-in-one-platform-to-revolutionize-digital-content-creation.html): Company-issued launch announcement, July 16, 2026. Historical leadership text conflicts with the owner's current clarification and is not used for leadership facts here.
 - [openPR company announcement](https://www.openpr.com/news/4579272/megsy-ai-launches-unified-digital-workspace-to-cure): Company-issued release, July 17, 2026; not independent journalism.
 - [EgyptInnovate company listing](https://egyptinnovate.com/en/entities/profile/megsyai): Describes software and content-production positioning. Listing is not government endorsement.

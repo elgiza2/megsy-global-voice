@@ -1,3 +1,8 @@
+# Additional company listings
+- [ ] Remove old personal-site links and references from both languages and search-facing content.
+- [ ] Find and add further confirmed Megsy listings without treating directories as journalism.
+- [ ] Verify sources and language/navigation flows.
+
 # Company research and editorial cleanup
 - [x] Research official company pages, relevant directories and independent articles; six source records added, company releases distinguished from journalism (no independent reported article found).
 - [x] Replace the rejected purpose section and its icons with professional company editorial; remove numbered eyebrows and move language switching to the footer.
