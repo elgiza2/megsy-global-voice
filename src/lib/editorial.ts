@@ -2,6 +2,15 @@ import type { Lang } from './i18n';
 
 const editorial = {
   en: {
+    story: {
+      title: 'Megsy LLC. Built from Egypt.',
+      intro: 'Led by Hamza Hassan Elgzairy, Megsy LLC works in artificial intelligence. Its active product, Megsy AI, brings digital creation tools into one workspace. The company’s direction extends beyond the product to the role AI can play in everyday work.',
+      rows: [
+        { title: 'The company behind Megsy AI', body: 'Megsy’s public descriptions focus on integrated software: conversation, code, images and document workflows in one environment. The company announcement on PRLog explains the idea as reducing the need to move between separate AI subscriptions and tools.', source: 'Company announcement · PRLog', url: 'https://www.prlog.org/13158812-megsy-ai-launches-all-in-one-platform-to-revolutionize-digital-content-creation.html' },
+        { title: 'Hamza’s vision', body: 'On his personal website, Hamza describes an ambition to build AI infrastructure from Egypt for a global audience. His emphasis is on AI that carries out practical tasks—not only answers questions—and gives people more time for their lives. This is his stated direction for the future, not a description of infrastructure already delivered.', source: 'Hamza’s personal website', url: 'https://elgiza.dev/' },
+        { title: 'One connected workspace', body: 'GoodFirms describes Megsy as a single-screen workspace for AI chat, coding, image creation, documents, automation and collaboration. These are the capabilities described in the company listing, rather than independently measured results.', source: 'Company profile · GoodFirms', url: 'https://www.goodfirms.co/company/megsy' },
+      ],
+    },
     triptych: { label: 'Leadership, company and vision', leadership: 'Company leadership', name: 'Hamza Hassan Elgzairy', role: 'CEO · Megsy LLC', stages: ['Purpose', 'Direction', 'Work'], title0: 'Hamza Hassan Elgzairy', body0: 'Hamza Hassan Elgzairy, CEO of Megsy LLC.', brand: 'Megsy LLC', question: 'Company and product.', prompt: 'Megsy LLC is led by Hamza Hassan Elgzairy.\nMegsy AI is its active product.', link: 'Meet Megsy', title1: 'The company', body1: 'Megsy LLC, the company behind Megsy AI.', vision: 'Looking ahead', visionValue: 'Technology for people', tags: ['Real needs', 'Useful technology', 'Long-term thinking'], title2: 'A meaningful vision', body2: 'Make AI a practical part of everyday work.' },
     menuAbout: 'About Hamza', menuWork: 'The company', menuPhotos: 'Vision', menuFaq: 'Questions',
     chapter: 'Leadership and technology', heroCta: 'Meet Hamza',
@@ -21,7 +30,7 @@ const editorial = {
       { question: 'Who is Hamza Hassan Elgzairy?', answer: 'Hamza Hassan Elgzairy is the CEO of Megsy LLC. His focus is on company leadership and the direction of its work in artificial intelligence.' },
       { question: 'How are Megsy LLC and Megsy AI connected?', answer: 'Megsy LLC is the company led by Hamza. Megsy AI is its currently active product, bringing several AI tools into a shared workspace.' },
       { question: 'What does Megsy AI offer?', answer: 'Megsy’s GoodFirms profile describes a workspace for AI conversation, coding, image creation, document handling, automation and team collaboration.' },
-      { question: 'What is the company’s direction?', answer: 'The direction presented here is to make AI more practical in everyday work: focus on people’s needs, reduce unnecessary complexity and develop the company over the long term.' },
+      { question: 'What is Hamza’s vision for the company?', answer: 'On his personal website, Hamza describes building AI infrastructure from Egypt for the world, with AI that completes practical tasks and gives people time back. It is a future ambition, not a claim that national infrastructure has already been built.' },
       { question: 'Is the customer-support service available?', answer: 'No. The customer-support service is paused. Megsy AI is the only currently active product.' },
       { question: 'Where is Megsy listed publicly?', answer: 'Megsy has a company profile on GoodFirms and appears in its Egypt cloud-computing directory. The source links below separate company listings from independent reporting; a directory position is not a national company ranking.' },
     ],
@@ -29,6 +38,15 @@ const editorial = {
     contactEyebrow: 'Megsy LLC', contactHeading: 'Meet Megsy LLC.', contactText: 'The company, its leadership and the work behind Megsy AI.',
   },
   ar: {
+    story: {
+      title: 'Megsy LLC. من مصر إلى العالم.',
+      intro: 'يقود حمزة حسن الجزايري شركة Megsy LLC في مجال الذكاء الاصطناعي. يجمع منتجها المتاح، Megsy AI، أدوات الإنشاء الرقمي في مساحة عمل واحدة، بينما تتناول رؤية الشركة الدور الذي يمكن أن يؤديه الذكاء الاصطناعي في العمل والحياة اليومية.',
+      rows: [
+        { title: 'الشركة وراء Megsy AI', body: 'تركّز أوصاف Megsy المنشورة على البرمجيات المتكاملة: المحادثة والبرمجة والصور والمستندات داخل بيئة واحدة. ويشرح إعلان الشركة المنشور على PRLog الفكرة باعتبارها تقليلًا للحاجة إلى التنقّل بين اشتراكات وأدوات ذكاء اصطناعي منفصلة.', source: 'إعلان الشركة على PRLog', url: 'https://www.prlog.org/13158812-megsy-ai-launches-all-in-one-platform-to-revolutionize-digital-content-creation.html' },
+        { title: 'رؤية حمزة', body: 'يعرض حمزة على موقعه الشخصي طموحه لبناء بنية تحتية للذكاء الاصطناعي من مصر تخدم العالم. ويركّز على ذكاء اصطناعي ينفّذ مهام عملية، لا يكتفي بالإجابة عن الأسئلة، ويمنح الناس وقتًا أكبر لحياتهم. هذه رؤيته للمستقبل، وليست وصفًا لبنية تحتية أُنجزت بالفعل.', source: 'موقع حمزة الشخصي', url: 'https://elgiza.dev/' },
+        { title: 'مساحة عمل مترابطة', body: 'يصف GoodFirms شركة Megsy من خلال مساحة عمل تجمع المحادثة والبرمجة وإنشاء الصور والمستندات والأتمتة وتعاون الفريق في شاشة واحدة. هذه إمكانات واردة في ملف الشركة، وليست نتائج اختبارات مستقلة.', source: 'ملف الشركة على GoodFirms', url: 'https://www.goodfirms.co/company/megsy' },
+      ],
+    },
     triptych: { label: 'القيادة والشركة والرؤية', leadership: 'قيادة الشركة', name: 'حمزة حسن الجزايري', role: 'الرئيس التنفيذي · Megsy LLC', stages: ['الهدف', 'الاتجاه', 'العمل'], title0: 'حمزة حسن الجزايري', body0: 'حمزة حسن الجزايري، الرئيس التنفيذي لشركة Megsy LLC.', brand: 'Megsy LLC', question: 'الشركة ومنتجها.', prompt: 'يقود حمزة حسن الجزايري شركة Megsy LLC.\nMegsy AI هو منتجها المتاح حاليًا.', link: 'عن Megsy', title1: 'الشركة', body1: 'Megsy LLC، الشركة التي تقدّم Megsy AI.', vision: 'نظرة للمستقبل', visionValue: 'التكنولوجيا للناس', tags: ['احتياجات حقيقية', 'تكنولوجيا مفيدة', 'تفكير طويل المدى'], title2: 'رؤية لها قيمة', body2: 'أن يكون الذكاء الاصطناعي جزءًا عمليًا من العمل اليومي.' },
     menuAbout: 'عن حمزة', menuWork: 'الشركة', menuPhotos: 'الرؤية', menuFaq: 'أسئلة',
     chapter: 'القيادة والتكنولوجيا', heroCta: 'تعرّف على حمزة',
@@ -48,7 +66,7 @@ const editorial = {
       { question: 'من هو حمزة حسن الجزايري؟', answer: 'حمزة حسن الجزايري هو الرئيس التنفيذي لشركة Megsy LLC. يركّز عمله على قيادة الشركة وتوجيه نشاطها في مجال الذكاء الاصطناعي.' },
       { question: 'ما العلاقة بين Megsy LLC وMegsy AI؟', answer: 'Megsy LLC هي الشركة التي يقودها حمزة، وMegsy AI هو منتجها المتاح حاليًا، ويجمع مجموعة من أدوات الذكاء الاصطناعي في مساحة عمل مشتركة.' },
       { question: 'ماذا يقدّم Megsy AI؟', answer: 'يصف ملف Megsy على GoodFirms مساحة عمل للمحادثة والبرمجة وإنشاء الصور والتعامل مع المستندات، إلى جانب الأتمتة وتعاون الفريق.' },
-      { question: 'ما الاتجاه الذي تتبنّاه الشركة؟', answer: 'جعل الذكاء الاصطناعي أكثر ارتباطًا بالعمل اليومي: البدء من احتياجات الناس، وتبسيط تجربة الاستخدام، وتطوير الشركة بنظرة طويلة المدى.' },
+      { question: 'ما رؤية حمزة للشركة؟', answer: 'يعرض حمزة على موقعه الشخصي طموحه لبناء بنية تحتية للذكاء الاصطناعي من مصر إلى العالم، وتطوير أدوات تنفّذ مهام عملية وتوفّر وقت الناس. هذه رؤية مستقبلية، وليست ادعاءً بإنجاز بنية تحتية وطنية بالفعل.' },
       { question: 'هل خدمة دعم العملاء متاحة؟', answer: 'لا. خدمة دعم العملاء متوقفة حاليًا، وMegsy AI هو المنتج الوحيد المتاح.' },
       { question: 'أين تظهر Megsy في المصادر العامة؟', answer: 'للشركة ملف على GoodFirms، وتظهر في دليله لشركات الحوسبة السحابية في مصر. الروابط أدناه تميّز بين أدلة الشركات والتغطية الصحفية المستقلة؛ موضع الشركة في دليل ليس تصنيفًا عامًا للشركات المصرية.' },
     ],
