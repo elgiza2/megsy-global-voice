@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
+import { resolveInitialLanguage } from './initial-language';
 
 export type Lang = "en" | "ar";
 
@@ -73,9 +74,10 @@ export function LangProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>("en");
 
   useEffect(() => {
-    const saved = localStorage.getItem("lang") as Lang | null;
+    const saved = localStorage.getItem("lang");
     const device = (navigator.languages?.[0] || navigator.language || "en").toLowerCase();
-    setLangState(saved ?? (device.startsWith("ar") ? "ar" : "en"));
+    const requested = new URLSearchParams(window.location.search).get('lang');
+    setLangState(resolveInitialLanguage(requested, saved, device));
   }, []);
 
   useEffect(() => {
@@ -85,6 +87,9 @@ export function LangProvider({ children }: { children: ReactNode }) {
 
   const setLang = (l: Lang) => {
     localStorage.setItem("lang", l);
+    const url = new URL(window.location.href);
+    url.searchParams.set('lang', l);
+    window.history.replaceState(window.history.state, '', url);
     setLangState(l);
   };
 
