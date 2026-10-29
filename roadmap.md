@@ -66,3 +66,6 @@
 - [ ] Verify on desktop and phone in both languages: switch-on idle, click to night + dot flight into power button, click back online, link hover underlines.
 - [ ] Change the search/browser favicon to a black letter "e" on a yellow background.
 - [ ] Deploy the site to Vercel using the owner-provided token (use once, never echo).
+- [x] Footer built and verified on desktop/phone in both languages: switch-on idle, power click to night with dot flight into the glowing button, click back online; mobile spacing tightened.
+- [x] Favicon changed to a black "e" on a yellow background (public/favicon.svg, linked in root head).
+- [x] Deployed to Vercel: live at https://hamza-orcin-seven.vercel.app (project "hamza"); elgiza.dev and www.elgiza.dev assigned to the project but DNS still points to the old host — owner must update DNS (A @ → 76.76.21.21, CNAME www → cname.vercel-dns.com).
