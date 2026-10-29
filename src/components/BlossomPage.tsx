@@ -18,7 +18,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       language: ar ? 'English' : 'العربية',
       menuAbout: c.menuAbout, menuWork: c.menuWork, menuPhotos: c.menuPhotos, menuFaq: c.menuFaq,
       companyLabel: company ? c.personalSite : c.nav.company,
-      heroEyebrow: company ? (ar ? 'الشركة / القيادة / الرؤية' : 'Company / Leadership / Vision') : c.role,
+      heroEyebrow: company ? (ar ? 'شركة يقودها حمزة حسن الجزايري' : 'Led by Hamza Hassan Elgzairy') : c.role,
       heroName: company ? 'Megsy LLC' : 'Hamza',
       heroBody: company ? c.companyHeroBody : c.heroBody,
       discover: company ? c.personalSite : c.discover,
@@ -33,7 +33,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       approachLabel: c.approachLabel, approachTitle: c.approachTitle, approachBody: c.approachBody,
       galleryLabel: c.galleryLabel, galleryTitle: c.galleryTitle, photoNote: c.photoNote,
       faqLabel: c.faqLabel, faqTitle: c.faqTitle,
-      sourcesLabel: c.sourcesLabel, availability: c.availability, listingNote: c.listingNote, listingUrl: c.listingUrl,
+      sourcesLabel: c.sourcesLabel, sourceNote: c.sourceNote, availability: c.availability, listingNote: c.listingNote, listingUrl: c.listingUrl,
       contactEyebrow: c.contactEyebrow, contactHeading: c.contactHeading, contactText: c.contactText,
       footerHome: company ? c.personalSite : c.nav.company,
       closePhoto: ar ? 'إغلاق' : 'Close',
@@ -42,12 +42,15 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       if (Array.isArray(value)) value.forEach((text, index) => { values[`tri_${key}${index}`] = text; });
       else values[`tri_${key}`] = value;
     });
-    Object.entries(c.dark).forEach(([key, value]) => { values[`dk_${key}`] = value; });
+    values['storyTitle'] = c.story.title;
+    values['storyIntro'] = c.story.intro;
     c.photoCaptions.forEach((caption, index) => { values[`caption${index}`] = caption; });
     c.faqs.forEach((item, index) => { values[`faqQuestion${index}`] = item.question; values[`faqAnswer${index}`] = item.answer; });
     c.sources.forEach((source, index) => { values[`sourceName${index}`] = source.name; values[`sourceUrl${index}`] = source.url; });
     c.approachItems.forEach((p, index) => { values[`productTitle${index}`] = p.title; values[`productBody${index}`] = p.body; });
-    let result = template.replace(/\{\{(\w+)\}\}/g, (_, key: string) => escapeHtml(values[key] ?? ''));
+    const storyRows = c.story.rows.map(row => `<article class="story-row reveal"><h3>${escapeHtml(row.title)}</h3><div><p>${escapeHtml(row.body)}</p><a href="${escapeHtml(row.url)}" target="_blank" rel="noopener">${escapeHtml(row.source)}</a></div></article>`).join('');
+    const sourceRecords = c.sources.map(source => `<article class="source-record"><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.name)}</a><p>${escapeHtml(source.description)}</p><small>${escapeHtml(source.type)}</small></article>`).join('');
+    let result = template.replace('{{storyRows}}', storyRows).replace('{{sourceRecords}}', sourceRecords).replace(/\{\{(\w+)\}\}/g, (_, key: string) => escapeHtml(values[key] ?? ''));
     result = result.replace('<html lang="en">', `<html lang="${lang}" dir="${ar ? 'rtl' : 'ltr'}">`);
     result = result.replace('</head>', '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&amp;display=swap"></head>');
     if (company) result = result.replaceAll('href="/megsy" target="_top"', 'href="/" target="_top"').replaceAll('data-nav="company"', 'data-nav="home"');
