@@ -55,3 +55,8 @@
 - [x] Rename the visible site Hamza and replace both pages with a clean editorial design.
 - [x] Remove rejected generated portraits from visible pages; keep Arabic and English.
 - [x] Update search metadata and verify navigation, language switching and layouts (routing test passed; desktop and mobile browser flow passed, no page errors or overflow).
+
+# Executive copy and Google profile
+- [x] Rewrite all copy in a confident executive voice; remove defensive notes and small directory links.
+- [x] Keep official/major links only (about.megsyai.com, megsyai.com, LinkedIn, Instagram, Crunchbase, GoodFirms, EgyptInnovate, PRLog, openPR).
+- [x] Add Hamza's real photo to search/AI data only (structured profile, share image, llms.txt), not shown on the page.
