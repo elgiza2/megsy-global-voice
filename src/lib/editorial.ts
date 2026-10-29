@@ -78,6 +78,12 @@ const editorial = {
     ],
     photoCaptions: ['على المسرح', 'لحظة تفكير', 'في اجتماع مع الفريق', 'أثناء العمل'],
     contactEyebrow: 'Megsy LLC', contactHeading: 'تعرّف على Megsy LLC.', contactText: 'تعرّف على الشركة ومنصتها والرؤية التي تقف خلفها.',
+    foot: {
+      tagline: 'ذكاء اصطناعي يُبنى في مصر، من أجل العالم.',
+      colPlatform: 'المنصة', colAbout: 'عن حمزة', colSocial: 'تواصل', storyLink: 'القصة',
+      copyright: '© 2026 حمزة حسن الجزايري · Megsy LLC',
+      power: 'التبديل بين النهار والليل',
+    },
   },
 };
 
