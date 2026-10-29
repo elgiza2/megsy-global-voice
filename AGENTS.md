@@ -16,5 +16,6 @@
 - Keep background motion browser-only inside the shared template, using a bundled texture with a static fallback; pause drawing when offscreen and honor reduced-motion preferences to avoid unnecessary rendering.
 - Keep the reference Petalyx standalone HTML separate from Hamza branding and factual company content.
 - Keep public company sources alongside shared product descriptions and avoid turning advertised features into verified performance or partnership claims.
+- Render source records and company editorial rows from escaped bilingual content; include source type and publication or review dates so company announcements are not mistaken for independent journalism.
 - Keep externally observed listing positions in browser-safe company facts with their category, date and scope, so directory order is never represented as a general national rank.
 - Keep the below-hero triptych isolated with section container units and native canvas/Web Animations; visuals are qualitative company artwork, never invented performance metrics.
