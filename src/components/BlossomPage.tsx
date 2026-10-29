@@ -39,7 +39,6 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
       closePhoto: ar ? 'إغلاق' : 'Close',
       fTagline: c.foot.tagline, fColPlatform: c.foot.colPlatform, fColAbout: c.foot.colAbout,
       fColSocial: c.foot.colSocial, fStoryLink: c.foot.storyLink, fCopyright: c.foot.copyright, fPower: c.foot.power,
-      fVideoHd: footerVideoHd.url, fVideoSd: footerVideoSd.url, fVideoWebm: footerVideoWebm.url, fPoster: footerPoster.url,
     };
     Object.entries(c.triptych).forEach(([key, value]) => {
       if (Array.isArray(value)) value.forEach((text, index) => { values[`tri_${key}${index}`] = text; });
