@@ -64,3 +64,5 @@
 # Cinematic power-button footer
 - [ ] Replace the footer with the offline-style cinematic scene: video clip (day→night CRT), power-button toggle, scanline/glints canvas, bilingual link columns, reduced-motion fallback.
 - [ ] Verify on desktop and phone in both languages: switch-on idle, click to night + dot flight into power button, click back online, link hover underlines.
+- [ ] Change the search/browser favicon to a black letter "e" on a yellow background.
+- [ ] Deploy the site to Vercel using the owner-provided token (use once, never echo).
