@@ -36,6 +36,12 @@ const editorial = {
     ],
     photoCaptions: ['On stage', 'A quiet moment', 'In a team meeting', 'At work'],
     contactEyebrow: 'Megsy LLC', contactHeading: 'Meet Megsy LLC.', contactText: 'Learn about the company, its platform and the vision behind it.',
+    foot: {
+      tagline: 'Artificial intelligence built in Egypt, for the world.',
+      colPlatform: 'Platform', colAbout: 'About', colSocial: 'Social', storyLink: 'The story',
+      copyright: '© 2026 Hamza Hassan Elgzairy · Megsy LLC',
+      power: 'Toggle day and night',
+    },
   },
   ar: {
     story: {

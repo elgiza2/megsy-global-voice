@@ -60,3 +60,7 @@
 - [x] Rewrite all copy in a confident executive voice; remove defensive notes and small directory links.
 - [x] Keep official/major links only (about.megsyai.com, megsyai.com, LinkedIn, Instagram, Crunchbase, GoodFirms, EgyptInnovate, PRLog, openPR).
 - [x] Add Hamza's real photo to search/AI data only (structured profile, share image, llms.txt), not shown on the page.
+
+# Cinematic power-button footer
+- [ ] Replace the footer with the offline-style cinematic scene: video clip (day→night CRT), power-button toggle, scanline/glints canvas, bilingual link columns, reduced-motion fallback.
+- [ ] Verify on desktop and phone in both languages: switch-on idle, click to night + dot flight into power button, click back online, link hover underlines.
