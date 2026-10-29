@@ -4,10 +4,6 @@ import { useLang } from '@/lib/i18n';
 import { getContent } from '@/lib/content';
 import template from './blossom/landscape.html?raw';
 import skyPainting from '@/assets/sky-painting.jpg';
-import footerVideoHd from '@/assets/footer-scene-1080.mp4.asset.json';
-import footerVideoSd from '@/assets/footer-scene-720.mp4.asset.json';
-import footerVideoWebm from '@/assets/footer-scene.webm.asset.json';
-import footerPoster from '@/assets/footer-scene-poster.jpg.asset.json';
 
 const escapeHtml = (value: string) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 
