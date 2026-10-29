@@ -5,7 +5,6 @@
 - [Home](/): Hamza's profile and perspective
 - [Megsy LLC](/megsy): Company leadership and vision. Megsy AI is its currently active product.
 - [GoodFirms company profile](https://www.goodfirms.co/company/megsy): Describes a single-screen AI workspace for chat, coding, images, documents, automation and collaboration
-- [Hamza's personal website](https://elgiza.dev/): His self-described vision for AI infrastructure built from Egypt and practical task-performing AI. These are aspirations, not delivered national infrastructure.
 - [PRLog company announcement](https://www.prlog.org/13158812-megsy-ai-launches-all-in-one-platform-to-revolutionize-digital-content-creation.html): Company-issued launch announcement, July 16, 2026. Historical leadership text conflicts with the owner's current clarification and is not used for leadership facts here.
 - [openPR company announcement](https://www.openpr.com/news/4579272/megsy-ai-launches-unified-digital-workspace-to-cure): Company-issued release, July 17, 2026; not independent journalism.
 - [EgyptInnovate company listing](https://egyptinnovate.com/en/entities/profile/megsyai): Describes software and content-production positioning. Listing is not government endorsement.
@@ -17,3 +16,18 @@ Product descriptions reflect public company pages, not independent verification 
 Abdullah Mohamed is not a partner in Megsy, as confirmed by Hamza. Megsy appeared fourth in the visible GoodFirms Egypt cloud-computing directory on October 28, 2026, not fourth among all Egyptian companies.
 
 Only Megsy AI is currently active, as confirmed by Hamza. The customer-support product is paused.
+
+## Further company and product listings
+
+Reviewed October 29, 2026. Listings establish public presence, not independent press coverage or endorsement. Microlaunch indicates review pending; Crunchbase and SaaSHub were search-readable with restricted direct access.
+- [Fazier](https://fazier.com/launches/megsyai): Product-launch directory.
+- [PitchWall](https://pitchwall.co/product/megsyai): Startup and product directory.
+- [Microlaunch](https://microlaunch.net/p/megsyai): Product submission · Review pending.
+- [LibraryOfApps](https://libraryofapps.com/app/megsy): App-discovery directory.
+- [WebCatalog](https://webcatalog.io/en/apps/megsy): App catalog · Unaffiliated provider.
+- [Tiny Startups](https://www.tinystartups.com/startup/megsyai-2): Startup directory.
+- [Bro Find AI](https://brofindai.com/tools/megsyai-Vh2S3F): AI-tool directory.
+- [AI Tools Next](https://www.aitoolsnext.com/tool.php?slug=megsyai): AI-tool directory.
+- [HyzenPro](https://hyzenpro.com/ai-tools-directory/ai-general-tools/megsyai/): AI-tool directory · Review-style description.
+- [Crunchbase](https://www.crunchbase.com/organization/megsyai): Company database · Search-visible; direct access restricted.
+- [SaaSHub](https://www.saashub.com/megsy-ai-alternatives): Software comparison directory · Direct access restricted.

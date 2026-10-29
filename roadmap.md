@@ -1,3 +1,10 @@
+# Additional company listings
+- [x] Replace repetitive company/product identity copy with professional bilingual corporate writing; evaluated Corey Haines Copywriting and complementary guides as editorial references, not installed skills.
+- [x] Correct route metadata and search identity without unsupported claims; self-referencing canonical/OG URLs and functional language query links verified. Search scanners not yet run; actual indexing/ranking unverified. Sitemap waits for a public site URL.
+- [x] Remove old personal-site links and references from both languages and search-facing content.
+- [x] Find and add eleven further confirmed Megsy listings, bringing source records to sixteen without treating directories as journalism.
+- [x] Verify sources and language/navigation flows; six tests passed, both routes/languages and phone layout checked.
+
 # Company research and editorial cleanup
 - [x] Research official company pages, relevant directories and independent articles; six source records added, company releases distinguished from journalism (no independent reported article found).
 - [x] Replace the rejected purpose section and its icons with professional company editorial; remove numbered eyebrows and move language switching to the footer.

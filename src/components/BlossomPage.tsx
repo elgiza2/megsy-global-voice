@@ -48,7 +48,7 @@ export function BlossomPage({ company = false }: { company?: boolean }) {
     c.faqs.forEach((item, index) => { values[`faqQuestion${index}`] = item.question; values[`faqAnswer${index}`] = item.answer; });
     c.sources.forEach((source, index) => { values[`sourceName${index}`] = source.name; values[`sourceUrl${index}`] = source.url; });
     c.approachItems.forEach((p, index) => { values[`productTitle${index}`] = p.title; values[`productBody${index}`] = p.body; });
-    const storyRows = c.story.rows.map(row => `<article class="story-row reveal"><h3>${escapeHtml(row.title)}</h3><div><p>${escapeHtml(row.body)}</p><a href="${escapeHtml(row.url)}" target="_blank" rel="noopener">${escapeHtml(row.source)}</a></div></article>`).join('');
+    const storyRows = c.story.rows.map(row => `<article class="story-row reveal"><h3>${escapeHtml(row.title)}</h3><div><p>${escapeHtml(row.body)}</p>${row.url ? `<a href="${escapeHtml(row.url)}" target="_blank" rel="noopener">${escapeHtml(row.source)}</a>` : ''}</div></article>`).join('');
     const sourceRecords = c.sources.map(source => `<article class="source-record"><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.name)}</a><p>${escapeHtml(source.description)}</p><small>${escapeHtml(source.type)}</small></article>`).join('');
     let result = template.replace('{{storyRows}}', storyRows).replace('{{sourceRecords}}', sourceRecords).replace(/\{\{(\w+)\}\}/g, (_, key: string) => escapeHtml(values[key] ?? ''));
     result = result.replace('<html lang="en">', `<html lang="${lang}" dir="${ar ? 'rtl' : 'ltr'}">`);
