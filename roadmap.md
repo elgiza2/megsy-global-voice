@@ -1,4 +1,6 @@
 # Additional company listings
+- [ ] Replace repetitive company/product identity copy with professional bilingual corporate writing; evaluate a GitHub writing skill.
+- [ ] Correct route metadata and search identity without unsupported claims.
 - [ ] Remove old personal-site links and references from both languages and search-facing content.
 - [ ] Find and add further confirmed Megsy listings without treating directories as journalism.
 - [ ] Verify sources and language/navigation flows.
